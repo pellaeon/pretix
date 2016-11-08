@@ -7,6 +7,7 @@ import pretix.presale.views.locale
 import pretix.presale.views.order
 import pretix.presale.views.organizer
 import pretix.presale.views.user
+import pretix.presale.views.widget
 
 # This is not a valid Django URL configuration, as the final
 # configuration is done by the pretix.multidomain package.
@@ -51,6 +52,9 @@ event_patterns = [
     url(r'^order/(?P<order>[^/]+)/(?P<secret>[A-Za-z0-9]+)/invoice/(?P<invoice>[^/]+)$',
         pretix.presale.views.order.InvoiceDownload.as_view(),
         name='event.invoice.download'),
+    url(r'^widget.js$', pretix.presale.views.widget.widget_js, name='event.widget.js'),
+    url(r'^widget/product_list$', pretix.presale.views.widget.WidgetAPIProductList.as_view(),
+        name='event.widget.productlist'),
     url(r'^$', pretix.presale.views.event.EventIndex.as_view(), name='event.index'),
 ]
 
