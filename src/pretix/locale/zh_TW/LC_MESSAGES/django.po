@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-01 04:07+0000\n"
-"PO-Revision-Date: 2017-07-01 16:40+0800\n"
+"PO-Revision-Date: 2017-07-01 17:15+0800\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2131,11 +2131,11 @@ msgstr ""
 
 #: pretix/base/views/async.py:132
 msgid "An unexpected error has occured."
-msgstr ""
+msgstr "遭遇未知錯誤。"
 
 #: pretix/base/views/async.py:135
 msgid "The task has been completed."
-msgstr ""
+msgstr "該程序已經完成。"
 
 #: pretix/base/views/errors.py:15
 #: venv/lib/python3.5/site-packages/django/views/csrf.py:114
@@ -2171,15 +2171,15 @@ msgstr ""
 
 #: pretix/control/forms/__init__.py:89
 msgid "Filetype not allowed!"
-msgstr ""
+msgstr "不支援的檔案類型。"
 
 #: pretix/control/forms/event.py:19 pretix/control/forms/organizer.py:110
 msgid "Use languages"
-msgstr ""
+msgstr "使用語言"
 
 #: pretix/control/forms/event.py:21
 msgid "Choose all languages that your event should be available in."
-msgstr ""
+msgstr "選擇你活動所適用的所有語言。"
 
 #: pretix/control/forms/event.py:40
 msgid ""
@@ -2188,101 +2188,101 @@ msgstr ""
 
 #: pretix/control/forms/event.py:44 pretix/control/forms/event.py:210
 msgid "Default timezone"
-msgstr ""
+msgstr "預設時區"
 
 #: pretix/control/forms/event.py:48 pretix/control/forms/event.py:219
 msgid "Default language"
-msgstr ""
+msgstr "預設語言"
 
 #: pretix/control/forms/event.py:84 pretix/control/forms/event.py:312
 msgid ""
 "Your default locale must also be enabled for your event (see box above)."
-msgstr ""
+msgstr "你預設的語系必須跟你活動的一樣。"
 
 #: pretix/control/forms/event.py:88
 msgid "Your default locale must be specified."
-msgstr ""
+msgstr "你必須選擇一個預設語系。"
 
 #: pretix/control/forms/event.py:131
 msgid "Copy configuration from"
-msgstr ""
+msgstr "複製設定表單。"
 
 #: pretix/control/forms/event.py:134 pretix/control/forms/item.py:119
 msgid "Do not copy"
-msgstr ""
+msgstr "不要複製"
 
 #: pretix/control/forms/event.py:175
 msgid "Show event end date"
-msgstr ""
+msgstr "顯示活動結束時間"
 
 #: pretix/control/forms/event.py:176
 msgid "If disabled, only event's start date will be displayed to the public."
-msgstr ""
+msgstr "取消後，只會顯示活動的開始時間。"
 
 #: pretix/control/forms/event.py:180
 msgid "Show dates with time"
-msgstr ""
+msgstr "顯示詳細時間。"
 
 #: pretix/control/forms/event.py:181
 msgid ""
 "If disabled, the event's start and end date will be displayed without the "
 "time of day."
-msgstr ""
+msgstr "選取之後，會只顯示日期。"
 
 #: pretix/control/forms/event.py:185
 msgid "Show items outside presale period"
-msgstr ""
+msgstr "在預售時間外顯示票券。"
 
 #: pretix/control/forms/event.py:186
 msgid ""
 "Show item details before presale has started and after presale has ended"
-msgstr ""
+msgstr "在預售時間外也顯示票券資訊。"
 
 #: pretix/control/forms/event.py:190
 msgid ""
 "Show net prices instead of gross prices in the product list (not "
 "recommended!)"
-msgstr ""
+msgstr "顯示票券淨額（不推薦）"
 
 #: pretix/control/forms/event.py:191
 msgid ""
 "Independent of your choice, the cart will show gross prices as this the "
 "price that needs to be paid"
-msgstr ""
+msgstr "獨立選擇"
 
 #: pretix/control/forms/event.py:196
 msgid "Show start date"
-msgstr ""
+msgstr "顯示開始時間"
 
 #: pretix/control/forms/event.py:197
 msgid "Show the presale start date before presale has started."
-msgstr ""
+msgstr "在預售開始前顯示預售時間"
 
 #: pretix/control/forms/event.py:202
 msgid "Last date of modifications"
-msgstr ""
+msgstr "最後修改時間"
 
 #: pretix/control/forms/event.py:203
 msgid ""
 "The last date users can modify details of their orders, such as attendee "
 "names or answers to questions."
-msgstr ""
+msgstr "使用者可以修改票券內容的最後期限，像是更改使用者名稱或回答問題。"
 
 #: pretix/control/forms/event.py:215
 msgid "Available languages"
-msgstr ""
+msgstr "可選用的語言"
 
 #: pretix/control/forms/event.py:222
 msgid "Show number of tickets left"
-msgstr ""
+msgstr "顯示剩餘票券數量"
 
 #: pretix/control/forms/event.py:223
 msgid "Publicly show how many tickets of a certain type are still available."
-msgstr ""
+msgstr "公開顯示某類型的票券還剩多少。"
 
 #: pretix/control/forms/event.py:227
 msgid "Enable waiting list"
-msgstr ""
+msgstr "啟用報名後補。"
 
 #: pretix/control/forms/event.py:228
 msgid ""
@@ -2294,7 +2294,7 @@ msgstr ""
 
 #: pretix/control/forms/event.py:234
 msgid "Waiting list response time"
-msgstr ""
+msgstr "後補序列"
 
 #: pretix/control/forms/event.py:236
 msgid ""
@@ -2305,7 +2305,7 @@ msgstr ""
 
 #: pretix/control/forms/event.py:242
 msgid "Automatic waiting list assignments"
-msgstr ""
+msgstr "自動產生"
 
 #: pretix/control/forms/event.py:243
 msgid ""
@@ -2317,7 +2317,7 @@ msgstr ""
 
 #: pretix/control/forms/event.py:250
 msgid "Ask for attendee names"
-msgstr ""
+msgstr "詢問用戶名稱"
 
 #: pretix/control/forms/event.py:251
 msgid "Ask for a name for all tickets which include admission to the event."
@@ -2325,15 +2325,15 @@ msgstr ""
 
 #: pretix/control/forms/event.py:255
 msgid "Require attendee names"
-msgstr ""
+msgstr "必填參與者名稱"
 
 #: pretix/control/forms/event.py:256
 msgid "Require customers to fill in the names of all attendees."
-msgstr ""
+msgstr "要求用戶填入所有參與者的暱稱"
 
 #: pretix/control/forms/event.py:261
 msgid "Ask for email addresses per ticket"
-msgstr ""
+msgstr "要求每張票券的電子郵件"
 
 #: pretix/control/forms/event.py:262
 msgid ""
@@ -2348,7 +2348,7 @@ msgstr ""
 
 #: pretix/control/forms/event.py:271
 msgid "Require email addresses per ticket"
-msgstr ""
+msgstr "每張票券必填電子郵件"
 
 #: pretix/control/forms/event.py:272
 msgid ""
@@ -2359,24 +2359,24 @@ msgstr ""
 
 #: pretix/control/forms/event.py:279
 msgid "Ask for the order email address twice"
-msgstr ""
+msgstr "要求填寫訂單的電子郵件兩次"
 
 #: pretix/control/forms/event.py:280
 msgid ""
 "Require customers to fill in the primary email address twice to avoid errors."
-msgstr ""
+msgstr "要求用戶再次確認電子郵件"
 
 #: pretix/control/forms/event.py:285
 msgid "Maximum number of items per order"
-msgstr ""
+msgstr "單次訂單上限"
 
 #: pretix/control/forms/event.py:286
 msgid "Add-on products will not be counted."
-msgstr ""
+msgstr "是否包括附加商品"
 
 #: pretix/control/forms/event.py:290
 msgid "Reservation period"
-msgstr ""
+msgstr "保留期限"
 
 #: pretix/control/forms/event.py:291
 msgid ""
@@ -2389,21 +2389,21 @@ msgstr ""
 
 #: pretix/control/forms/event.py:298
 msgid "Contact address"
-msgstr ""
+msgstr "聯絡地址"
 
 #: pretix/control/forms/event.py:300
 msgid "Public email address for contacting the organizer"
-msgstr ""
+msgstr "公開主辦方的電子郵件"
 
 #: pretix/control/forms/event.py:303
 msgid "Allow users to cancel unpaid orders"
-msgstr ""
+msgstr "允許使用者取消未付費的訂單"
 
 #: pretix/control/forms/event.py:304
 msgid ""
 "If checked, users can cancel orders by themselves as long as they are not "
 "yet paid."
-msgstr ""
+msgstr "打勾後，使用者未付帳之前都可以退票"
 
 #: pretix/control/forms/event.py:316
 msgid ""
@@ -2426,7 +2426,7 @@ msgstr ""
 
 #: pretix/control/forms/event.py:331
 msgid "Last date of payments"
-msgstr ""
+msgstr "繳費期限"
 
 #: pretix/control/forms/event.py:332
 msgid ""
