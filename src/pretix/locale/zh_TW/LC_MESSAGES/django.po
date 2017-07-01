@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-01 04:07+0000\n"
-"PO-Revision-Date: 2017-07-01 16:04+0800\n"
+"PO-Revision-Date: 2017-07-01 16:37+0800\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1776,13 +1776,13 @@ msgstr "該操作會清空訂單，請直接取消該訂單。"
 
 #: pretix/base/services/orders.py:487
 msgid "Only pending or paid orders can be changed."
-msgstr ""
+msgstr "你只能等待中或已付費的訂單。"
 
 #: pretix/base/services/orders.py:488
 msgid ""
 "This operation would make the order free and therefore immediately paid, "
 "however no quota is available."
-msgstr ""
+msgstr "該操作會取得免費票券並立刻付款，但該活動已額滿。"
 
 #: pretix/base/services/orders.py:490
 msgid ""
@@ -1790,18 +1790,19 @@ msgid ""
 "total price of the order as partial payments or refunds are not yet "
 "supported."
 msgstr ""
+"你只能對已付款的訂單做不影響價格的操作，現在系統還不支援部分付款或退款。"
 
 #: pretix/base/services/orders.py:492
 msgid ""
 "This is an addon product, please select the base position it should be added "
 "to."
-msgstr ""
+msgstr "這是一個附加商品，請選擇跟它搭配的票券。"
 
 #: pretix/base/services/orders.py:493
 msgid ""
 "The selected base position does not allow you to add this product as an add-"
 "on."
-msgstr ""
+msgstr "你選擇的票券不允許搭配此商品。"
 
 #: pretix/base/services/orders.py:663
 #, python-format
@@ -1810,16 +1811,16 @@ msgstr ""
 
 #: pretix/base/services/stats.py:131
 msgid "Uncategorized"
-msgstr ""
+msgstr "未分類"
 
 #: pretix/base/services/stats.py:155
 msgid "Payment method fees"
-msgstr ""
+msgstr "付款手續費。"
 
 #: pretix/base/services/tickets.py:76
 #: pretix/plugins/ticketoutputpdf/views.py:88
 msgid "Sample product"
-msgstr ""
+msgstr "範例票券。"
 
 #: pretix/base/services/tickets.py:82 pretix/control/views/event.py:464
 #: pretix/plugins/sendmail/views.py:85
@@ -1827,11 +1828,11 @@ msgstr ""
 #: pretix/plugins/ticketoutputpdf/views.py:97
 #: pretix/plugins/ticketoutputpdf/views.py:98
 msgid "John Doe"
-msgstr ""
+msgstr "John Doe"
 
 #: pretix/base/services/update_check.py:89
 msgid "pretix update available"
-msgstr ""
+msgstr "有可用的 pretix 更新。"
 
 #: pretix/base/services/update_check.py:92
 #, python-brace-format
@@ -1858,7 +1859,7 @@ msgstr ""
 #: pretix/base/services/update_check.py:123
 #, python-format
 msgid "Plugin: %s"
-msgstr ""
+msgstr "套件： %s"
 
 #: pretix/base/settings.py:204
 #, python-brace-format
@@ -1994,54 +1995,54 @@ msgstr ""
 
 #: pretix/base/templates/400.html:3 pretix/base/templates/400.html:6
 msgid "Bad Request"
-msgstr ""
+msgstr "請求錯誤。"
 
 #: pretix/base/templates/400.html:7
 msgid "We were unable to parse your request."
-msgstr ""
+msgstr "請求解析失敗。"
 
 #: pretix/base/templates/400.html:10 pretix/base/templates/403.html:10
 #: pretix/base/templates/404.html:10 pretix/base/templates/500.html:11
 #: pretix/base/templates/csrffail.html:22
 msgid "Take a step back"
-msgstr ""
+msgstr "回前頁。"
 
 #: pretix/base/templates/400.html:11 pretix/base/templates/403.html:11
 #: pretix/base/templates/500.html:12
 msgid "Try again"
-msgstr ""
+msgstr "請再試一次。"
 
 #: pretix/base/templates/403.html:3 pretix/base/templates/403.html:6
 msgid "Permission denied"
-msgstr ""
+msgstr "權限錯誤。"
 
 #: pretix/base/templates/403.html:7
 msgid "You do not have access to this page."
-msgstr ""
+msgstr "你沒有讀取該頁的權限。"
 
 #: pretix/base/templates/404.html:3 pretix/base/templates/404.html:6
 msgid "Not found"
-msgstr ""
+msgstr "該頁面不存在。"
 
 #: pretix/base/templates/404.html:7
 msgid "I'm afraid we could not find the the resource you requested."
-msgstr ""
+msgstr "我們並未找到你請求的資料。"
 
 #: pretix/base/templates/500.html:3 pretix/base/templates/500.html:6
 msgid "Internal Server Error"
-msgstr ""
+msgstr "內部錯誤。"
 
 #: pretix/base/templates/500.html:7
 msgid "We had trouble processing your request."
-msgstr ""
+msgstr "請求處理錯誤。"
 
 #: pretix/base/templates/500.html:8
 msgid "If this problem persists, please contact us."
-msgstr ""
+msgstr "如果你持續遭遇該問題，請聯絡我們。"
 
 #: pretix/base/templates/csrffail.html:3 pretix/base/templates/csrffail.html:6
 msgid "Verification failed"
-msgstr ""
+msgstr "驗證錯誤。"
 
 #: pretix/base/templates/csrffail.html:7
 msgid ""
@@ -2057,11 +2058,11 @@ msgstr ""
 
 #: pretix/base/templates/debug_toolbar/base.html:17
 msgid "Hide toolbar"
-msgstr ""
+msgstr "隱藏工具列"
 
 #: pretix/base/templates/debug_toolbar/base.html:17
 msgid "Hide"
-msgstr ""
+msgstr "隱藏"
 
 #: pretix/base/templates/debug_toolbar/base.html:23
 msgid "Disable for next and successive requests"
@@ -2073,17 +2074,17 @@ msgstr ""
 
 #: pretix/base/templates/debug_toolbar/base.html:45
 msgid "Show toolbar"
-msgstr ""
+msgstr "顯示工具列"
 
 #: pretix/base/templates/pretixbase/cachedfiles/pending.html:21
 msgid "We are preparing your file for download …"
-msgstr ""
+msgstr "我們正在為你的檔案準備下載 ⋯⋯"
 
 #: pretix/base/templates/pretixbase/cachedfiles/pending.html:23
 msgid ""
 "If this takes longer than a few minutes, please refresh this page or contact "
 "us."
-msgstr ""
+msgstr "如果這花費不少時間，請重整或聯繫我們。"
 
 #: pretix/base/templates/pretixbase/email/email_footer.html:3
 #: pretix/control/templates/pretixcontrol/auth/base.html:29
@@ -2101,19 +2102,19 @@ msgstr ""
 
 #: pretix/base/templates/pretixbase/email/plainwrapper.html:141
 msgid "Event:"
-msgstr ""
+msgstr "活動："
 
 #: pretix/base/templates/pretixbase/email/plainwrapper.html:142
 msgid "Order code:"
-msgstr ""
+msgstr "訂單序號："
 
 #: pretix/base/templates/pretixbase/email/plainwrapper.html:143
 msgid "Order date:"
-msgstr ""
+msgstr "訂單日期："
 
 #: pretix/base/templates/pretixbase/email/plainwrapper.html:145
 msgid "View order details"
-msgstr ""
+msgstr "顯示訂單資訊："
 
 #: pretix/base/ticketoutput.py:125
 msgid "Enable output"
@@ -2121,7 +2122,7 @@ msgstr ""
 
 #: pretix/base/ticketoutput.py:143
 msgid "Download ticket"
-msgstr ""
+msgstr "下載票券"
 
 #: pretix/base/validators.py:14
 #, python-format
