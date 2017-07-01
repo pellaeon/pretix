@@ -3,41 +3,41 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-01 04:07+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2017-07-01 15:12+0800\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.2\n"
 
 #: pretix/base/exporters/invoices.py:15
 msgid "All invoices"
-msgstr ""
+msgstr "票券(所有)"
 
 #: pretix/base/exporters/mail.py:16
 msgid "Email addresses (text file)"
-msgstr ""
+msgstr "電子郵件信箱(純文字檔)"
 
 #: pretix/base/exporters/mail.py:34 pretix/plugins/reports/exporters.py:246
 msgid "Filter by status"
-msgstr ""
+msgstr "排序(狀態)"
 
 #: pretix/base/exporters/orderlist.py:21
 msgid "List of orders (CSV)"
-msgstr ""
+msgstr "訂單列表(CSV)"
 
 #: pretix/base/exporters/orderlist.py:29
 #: pretix/plugins/checkinlists/exporters.py:40
 msgid "Only paid orders"
-msgstr ""
+msgstr "票券(已支付)"
 
 #: pretix/base/exporters/orderlist.py:60 pretix/base/models/orders.py:104
 #: pretix/base/services/invoices.py:202
@@ -52,14 +52,14 @@ msgstr ""
 #: pretix/plugins/reports/exporters.py:319
 #: pretix/plugins/ticketoutputpdf/templates/pretixplugins/ticketoutputpdf/index.html:287
 msgid "Order code"
-msgstr ""
+msgstr "票券代碼"
 
 #: pretix/base/exporters/orderlist.py:60
 #: pretix/control/templates/pretixcontrol/orders/index.html:77
 #: pretix/control/templates/pretixcontrol/search/orders.html:44
 #: pretix/plugins/reports/exporters.py:319
 msgid "Order total"
-msgstr ""
+msgstr "票券總計"
 
 #: pretix/base/exporters/orderlist.py:60 pretix/base/models/orders.py:110
 #: pretix/control/forms/filter.py:151
@@ -71,13 +71,13 @@ msgstr ""
 #: pretix/plugins/reports/exporters.py:319
 #: pretix/plugins/stripe/templates/pretixplugins/stripe/control.html:31
 msgid "Status"
-msgstr ""
+msgstr "狀態"
 
 #: pretix/base/exporters/orderlist.py:60
 #: pretix/control/templates/pretixcontrol/checkin/index.html:48
 #: pretix/control/templates/pretixcontrol/event/settings_base.html:36
 msgid "Email"
-msgstr ""
+msgstr "電子郵件信箱"
 
 #: pretix/base/exporters/orderlist.py:60
 #: pretix/control/templates/pretixcontrol/order/index.html:74
@@ -86,14 +86,14 @@ msgstr ""
 #: pretix/plugins/reports/exporters.py:257
 #: pretix/plugins/reports/exporters.py:319
 msgid "Order date"
-msgstr ""
+msgstr "票券日期"
 
 #: pretix/base/exporters/orderlist.py:61
 #: pretix/control/templates/pretixcontrol/order/index.html:318
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:77
 #: pretix/presale/templates/pretixpresale/event/order.html:174
 msgid "Company"
-msgstr ""
+msgstr "單位"
 
 #: pretix/base/exporters/orderlist.py:61 pretix/base/models/event.py:64
 #: pretix/base/models/items.py:595 pretix/base/models/organizer.py:30
@@ -104,36 +104,36 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/order.html:176
 #: pretix/presale/templates/pretixpresale/organizers/index.html:27
 msgid "Name"
-msgstr ""
+msgstr "名稱"
 
 #: pretix/base/exporters/orderlist.py:61 pretix/base/models/orders.py:620
 #: pretix/control/templates/pretixcontrol/order/index.html:322
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:81
 #: pretix/presale/templates/pretixpresale/event/order.html:178
 msgid "Address"
-msgstr ""
+msgstr "地址"
 
 #: pretix/base/exporters/orderlist.py:61 pretix/base/models/orders.py:621
 msgid "ZIP code"
-msgstr ""
+msgstr "郵遞區號"
 
 #: pretix/base/exporters/orderlist.py:61 pretix/base/models/orders.py:622
 msgid "City"
-msgstr ""
+msgstr "城市"
 
 #: pretix/base/exporters/orderlist.py:61 pretix/base/models/orders.py:623
 #: pretix/control/templates/pretixcontrol/order/index.html:326
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:85
 #: pretix/presale/templates/pretixpresale/event/order.html:182
 msgid "Country"
-msgstr ""
+msgstr "國家"
 
 #: pretix/base/exporters/orderlist.py:61 pretix/base/models/orders.py:624
 #: pretix/control/templates/pretixcontrol/order/index.html:329
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:88
 #: pretix/presale/templates/pretixpresale/event/order.html:185
 msgid "VAT ID"
-msgstr ""
+msgstr "統一編號"
 
 #: pretix/base/exporters/orderlist.py:62 pretix/base/models/orders.py:134
 #: pretix/control/templates/pretixcontrol/order/index.html:84
@@ -141,66 +141,66 @@ msgstr ""
 #: pretix/plugins/reports/exporters.py:258
 #: pretix/plugins/reports/exporters.py:319
 msgid "Payment date"
-msgstr ""
+msgstr "支付日期"
 
 #: pretix/base/exporters/orderlist.py:62
 msgid "Payment type"
-msgstr ""
+msgstr "支付類型"
 
 #: pretix/base/exporters/orderlist.py:62 pretix/base/models/orders.py:144
 #: pretix/control/templates/pretixcontrol/order/index.html:230
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:133
 msgid "Payment method fee"
-msgstr ""
+msgstr "支付手續費"
 
 #: pretix/base/exporters/orderlist.py:67
 #, python-brace-format
 msgid "Gross at {rate} % tax"
-msgstr ""
+msgstr "稅率毛額"
 
 #: pretix/base/exporters/orderlist.py:68
 #, python-brace-format
 msgid "Net at {rate} % tax"
-msgstr ""
+msgstr "淨稅"
 
 #: pretix/base/exporters/orderlist.py:69
 #, python-brace-format
 msgid "Tax value at {rate} % tax"
-msgstr ""
+msgstr "稅額"
 
 #: pretix/base/exporters/orderlist.py:72
 msgid "Invoice numbers"
-msgstr ""
+msgstr "商業收據"
 
 #: pretix/base/exporters/orderlist.py:135
 msgid "Quota availabilities (CSV)"
-msgstr ""
+msgstr "剩餘配額(CSV)"
 
 #: pretix/base/exporters/orderlist.py:142
 #: pretix/control/templates/pretixcontrol/items/quotas.html:35
 msgid "Quota name"
-msgstr ""
+msgstr "名稱"
 
 #: pretix/base/exporters/orderlist.py:142
 #: pretix/control/templates/pretixcontrol/items/quota.html:29
 msgid "Total quota"
-msgstr ""
+msgstr "總配額"
 
 #: pretix/base/exporters/orderlist.py:142 pretix/control/views/item.py:631
 msgid "Paid orders"
-msgstr ""
+msgstr "票券(已支付)"
 
 #: pretix/base/exporters/orderlist.py:142 pretix/control/views/item.py:636
 msgid "Pending orders"
-msgstr ""
+msgstr "票券(待支付)"
 
 #: pretix/base/exporters/orderlist.py:142
 msgid "Blocking vouchers"
-msgstr ""
+msgstr "憑證"
 
 #: pretix/base/exporters/orderlist.py:143 pretix/control/views/item.py:646
 msgid "Current user's carts"
-msgstr ""
+msgstr "票券列表"
 
 #: pretix/base/exporters/orderlist.py:143
 #: pretix/control/templates/pretixcontrol/event/base.html:91
@@ -212,108 +212,108 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/fragment_availability.html:24
 #: pretix/presale/templates/pretixpresale/event/waitinglist.html:3
 msgid "Waiting list"
-msgstr ""
+msgstr "等待列表"
 
 #: pretix/base/exporters/orderlist.py:143
 #: pretix/control/templates/pretixcontrol/items/quota.html:41
 #: pretix/control/views/item.py:662
 msgid "Current availability"
-msgstr ""
+msgstr "剩餘量"
 
 #: pretix/base/exporters/orderlist.py:151
 #: pretix/base/exporters/orderlist.py:157
 #: pretix/control/templates/pretixcontrol/items/quota.html:31
 #: pretix/control/templates/pretixcontrol/items/quota.html:43
 msgid "Infinite"
-msgstr ""
+msgstr "不限"
 
 #: pretix/base/forms/auth.py:16 pretix/base/forms/auth.py:163
 #: pretix/base/models/auth.py:67 pretix/base/models/orders.py:120
 #: pretix/plugins/checkinlists/exporters.py:94
 #: pretix/presale/forms/checkout.py:19 pretix/presale/forms/user.py:6
 msgid "E-mail"
-msgstr ""
+msgstr "電子郵件"
 
 #: pretix/base/forms/auth.py:17 pretix/base/forms/auth.py:80
 #: pretix/base/forms/auth.py:126 pretix/control/forms/event.py:579
 #: pretix/control/templates/pretixcontrol/user/reauth.html:14
 msgid "Password"
-msgstr ""
+msgstr "密碼"
 
 #: pretix/base/forms/auth.py:20
 msgid "Please enter a correct email address and password."
-msgstr ""
+msgstr "請輸入正確格式的帳號或密碼。"
 
 #: pretix/base/forms/auth.py:21
 msgid "This account is inactive."
-msgstr ""
+msgstr "該帳號已被鎖定。"
 
 #: pretix/base/forms/auth.py:72
 msgid ""
 "You already registered with that email address, please use the login form."
-msgstr ""
+msgstr "該電子郵件已經被註冊，請改登入。"
 
 #: pretix/base/forms/auth.py:73 pretix/base/forms/auth.py:123
 #: pretix/base/forms/user.py:19
 msgid "Please enter the same password twice"
-msgstr ""
+msgstr "請輸入兩次密碼。"
 
 #: pretix/base/forms/auth.py:76
 #: venv/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1683
 msgid "Email address"
-msgstr ""
+msgstr "電子郵件"
 
 #: pretix/base/forms/auth.py:87 pretix/base/forms/auth.py:131
 msgid "Repeat password"
-msgstr ""
+msgstr "重複密碼"
 
 #: pretix/base/forms/auth.py:179
 msgid "We are unable to find a user matching the data you provided."
-msgstr ""
+msgstr "找不到相符合的使用者"
 
 #: pretix/base/forms/user.py:14
 msgid ""
 "There already is an account associated with this e-mail address. Please "
 "choose a different one."
-msgstr ""
+msgstr "已經有帳號使用該電子郵件，請換一組。"
 
 #: pretix/base/forms/user.py:16
 msgid ""
 "Please enter your current password if you want to change your e-mail address "
 "or password."
-msgstr ""
+msgstr "請輸入當前的密碼來做出修改。"
 
 #: pretix/base/forms/user.py:18
 msgid "The current password you entered was not correct."
-msgstr ""
+msgstr "你輸入的密碼不正確。"
 
 #: pretix/base/forms/user.py:24
 msgid "Your current password"
-msgstr ""
+msgstr "你當前的密碼"
 
 #: pretix/base/forms/user.py:28
 msgid "New password"
-msgstr ""
+msgstr "新密碼"
 
 #: pretix/base/forms/user.py:32
 msgid "Repeat new password"
-msgstr ""
+msgstr "重複新密碼"
 
 #: pretix/base/forms/user.py:108
 msgid "Device name"
-msgstr ""
+msgstr "裝置名稱"
 
 #: pretix/base/forms/user.py:109
 msgid "Device type"
-msgstr ""
+msgstr "裝置類型"
 
 #: pretix/base/forms/user.py:110
 msgid "Smartphone with the Authenticator application"
-msgstr ""
+msgstr "智慧型手機(已安裝驗證app)"
 
 #: pretix/base/forms/user.py:111
 msgid "U2F-compatible hardware token (e.g. Yubikey)"
-msgstr ""
+msgstr "U2F token"
 
 #: pretix/base/forms/validators.py:33
 #, python-format
@@ -322,27 +322,27 @@ msgstr ""
 
 #: pretix/base/models/auth.py:69 pretix/base/models/orders.py:619
 msgid "Full name"
-msgstr ""
+msgstr "全名"
 
 #: pretix/base/models/auth.py:71
 msgid "Is active"
-msgstr ""
+msgstr "是否啟用"
 
 #: pretix/base/models/auth.py:73
 msgid "Is site admin"
-msgstr ""
+msgstr "是否為管理員"
 
 #: pretix/base/models/auth.py:75
 msgid "Date joined"
-msgstr ""
+msgstr "創建日期"
 
 #: pretix/base/models/auth.py:79
 msgid "Language"
-msgstr ""
+msgstr "語言"
 
 #: pretix/base/models/auth.py:82
 msgid "Timezone"
-msgstr ""
+msgstr "時區"
 
 #: pretix/base/models/auth.py:92
 #: pretix/control/templates/pretixcontrol/order/index.html:90
@@ -351,15 +351,15 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/waitinglist/index.html:94
 #: pretix/control/views/organizer.py:40 tests/base/test_mail.py:86
 msgid "User"
-msgstr ""
+msgstr "使用者"
 
 #: pretix/base/models/auth.py:93
 msgid "Users"
-msgstr ""
+msgstr "使用者"
 
 #: pretix/base/models/auth.py:137
 msgid "Account information changed"
-msgstr ""
+msgstr "帳號資訊已變更"
 
 #: pretix/base/models/event.py:69
 msgid ""
@@ -376,62 +376,62 @@ msgstr ""
 
 #: pretix/base/models/event.py:80 pretix/base/models/organizer.py:43
 msgid "Short form"
-msgstr ""
+msgstr "簡寫"
 
 #: pretix/base/models/event.py:82
 msgid "Shop is live"
-msgstr ""
+msgstr "賣家已經開放"
 
 #: pretix/base/models/event.py:84
 msgid "Default currency"
-msgstr ""
+msgstr "預設貨幣"
 
 #: pretix/base/models/event.py:87
 msgid "Event start time"
-msgstr ""
+msgstr "開始時間"
 
 #: pretix/base/models/event.py:89
 msgid "Event end time"
-msgstr ""
+msgstr "結束時間"
 
 #: pretix/base/models/event.py:91
 msgid "Admission time"
-msgstr ""
+msgstr "入場時間"
 
 #: pretix/base/models/event.py:93
 msgid "Visible in public lists"
-msgstr ""
+msgstr "在公開頁面上顯示你的參加"
 
 #: pretix/base/models/event.py:94
 msgid ""
 "If selected, this event may show up on the ticket system's start page or an "
 "organization profile."
-msgstr ""
+msgstr "選取後，會在售票頁面顯示這個活動。"
 
 #: pretix/base/models/event.py:98
 msgid "End of presale"
-msgstr ""
+msgstr "預售結束日期。"
 
 #: pretix/base/models/event.py:99
 msgid "No products will be sold after this date."
-msgstr ""
+msgstr "過了該日期之後就不再販售。"
 
 #: pretix/base/models/event.py:103
 msgid "Start of presale"
-msgstr ""
+msgstr "預售開始"
 
 #: pretix/base/models/event.py:104
 msgid "No products will be sold before this date."
-msgstr ""
+msgstr "在該日期前不販售。"
 
 #: pretix/base/models/event.py:109
 msgid "Location"
-msgstr ""
+msgstr "地點"
 
 #: pretix/base/models/event.py:113
 #: pretix/control/templates/pretixcontrol/event/settings_base.html:21
 msgid "Plugins"
-msgstr ""
+msgstr "插件"
 
 #: pretix/base/models/event.py:117 pretix/base/models/items.py:134
 #: pretix/base/models/items.py:591 pretix/base/models/orders.py:115
@@ -439,7 +439,7 @@ msgstr ""
 #: pretix/base/models/waitinglist.py:27 pretix/base/services/invoices.py:277
 #: pretix/control/templates/pretixcontrol/search/orders.html:35
 msgid "Event"
-msgstr ""
+msgstr "活動"
 
 #: pretix/base/models/event.py:118
 #: pretix/control/templates/pretixcontrol/base.html:183
@@ -448,27 +448,28 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/organizers/base.html:19
 #: pretix/control/templates/pretixcontrol/organizers/teams.html:17
 msgid "Events"
-msgstr ""
+msgstr "活動"
 
 #: pretix/base/models/event.py:131
 msgid "The end of the presale period has to be later than its start."
-msgstr ""
+msgstr "預售的結束日期必須比開始時間晚。"
 
 #: pretix/base/models/event.py:133
 msgid "The end of the event has to be later than its start."
-msgstr ""
+msgstr "活動的結束日期必須比開始時間晚。"
 
 #: pretix/base/models/items.py:40
 msgid "Category name"
-msgstr ""
+msgstr "類別名稱"
 
 #: pretix/base/models/items.py:43
 msgid "Category description"
-msgstr ""
+msgstr "類別介紹"
 
 #: pretix/base/models/items.py:50
+#, fuzzy
 msgid "Products in this category are add-on products"
-msgstr ""
+msgstr "這是一個（"
 
 #: pretix/base/models/items.py:51
 msgid ""
@@ -476,50 +477,51 @@ msgid ""
 "their own. They can only be bought in combination with a product that has "
 "this category configured as a possible source for add-ons."
 msgstr ""
+"選取後，這個類別的商品就無法單獨販售。他們只能與其他設定過的商品一同訂購。"
 
 #: pretix/base/models/items.py:57
 #: pretix/control/templates/pretixcontrol/items/category.html:4
 #: pretix/control/templates/pretixcontrol/items/category.html:6
 msgid "Product category"
-msgstr ""
+msgstr "商品類別"
 
 #: pretix/base/models/items.py:58
 #: pretix/control/templates/pretixcontrol/items/categories.html:3
 #: pretix/control/templates/pretixcontrol/items/categories.html:5
 #: pretix/control/templates/pretixcontrol/items/categories.html:31
 msgid "Product categories"
-msgstr ""
+msgstr "類別列表"
 
 #: pretix/base/models/items.py:63
 #, python-brace-format
 msgid "{category} (Add-On products)"
-msgstr ""
+msgstr "{category} （附加商品）"
 
 #: pretix/base/models/items.py:141 pretix/base/models/items.py:413
 #: pretix/control/templates/pretixcontrol/items/index.html:34
 msgid "Category"
-msgstr ""
+msgstr "類別"
 
 #: pretix/base/models/items.py:145
 msgid "Item name"
-msgstr ""
+msgstr "票券名稱"
 
 #: pretix/base/models/items.py:149 pretix/base/models/items.py:330
 msgid "Active"
-msgstr ""
+msgstr "是否開放"
 
 #: pretix/base/models/items.py:152 pretix/base/models/items.py:326
 #: pretix/base/models/items.py:333
 msgid "Description"
-msgstr ""
+msgstr "說明"
 
 #: pretix/base/models/items.py:153
 msgid "This is shown below the product name in lists."
-msgstr ""
+msgstr "票券名稱列表"
 
 #: pretix/base/models/items.py:157 pretix/base/models/items.py:344
 msgid "Default price"
-msgstr ""
+msgstr "預設價格"
 
 #: pretix/base/models/items.py:158
 msgid ""
@@ -527,10 +529,12 @@ msgid ""
 "each of the variations. If a variation does not have a special price or if "
 "you do not have variations, this price will be used."
 msgstr ""
+"如果該票券有不同類型，你可以為它們設定不同的價格。如果該類型沒有特別的價格，"
+"就會使用預設的。"
 
 #: pretix/base/models/items.py:165
 msgid "Free price input"
-msgstr ""
+msgstr "自由輸入價格"
 
 #: pretix/base/models/items.py:166
 msgid ""
@@ -540,95 +544,103 @@ msgid ""
 "event. This is currently not supported for products that are bought as an "
 "add-on to other products."
 msgstr ""
+"讓使用者自由標價。上面可以設定輸入的最低價格。你可以用這個功能來搜集活動的捐"
+"款（不支援附加商品）"
 
 #: pretix/base/models/items.py:172
 msgid "Taxes included in percent"
-msgstr ""
+msgstr "含稅"
 
 #: pretix/base/models/items.py:177
 msgid "Is an admission ticket"
-msgstr ""
+msgstr "為入場票"
 
 #: pretix/base/models/items.py:179
 msgid "Whether or not buying this product allows a person to enter your event"
-msgstr ""
+msgstr "使用者需購買這個商品來入場。"
 
 #: pretix/base/models/items.py:188
 msgid "Product picture"
-msgstr ""
+msgstr "商品價格"
 
 #: pretix/base/models/items.py:193
+#, fuzzy
 msgid "Available from"
-msgstr ""
+msgstr "從"
 
 #: pretix/base/models/items.py:195
 msgid "This product will not be sold before the given date."
-msgstr ""
+msgstr "在該日期開始販售。"
 
 #: pretix/base/models/items.py:198 pretix/base/payment.py:154
+#, fuzzy
 msgid "Available until"
-msgstr ""
+msgstr "到"
 
 #: pretix/base/models/items.py:200
 msgid "This product will not be sold after the given date."
-msgstr ""
+msgstr "在該日期結束販售。"
 
 #: pretix/base/models/items.py:203
 msgid "This product can only be bought using a voucher."
-msgstr ""
+msgstr "需要邀請碼才能購買該票券。"
 
 #: pretix/base/models/items.py:205
 msgid ""
 "To buy this product, the user needs a voucher that applies to this product "
 "either directly or via a quota."
-msgstr ""
+msgstr "要訂購該票券，使用者必須使用邀請碼。"
 
 #: pretix/base/models/items.py:209
+#, fuzzy
 msgid ""
 "This product will only be shown if a voucher matching the product is "
 "redeemed."
-msgstr ""
+msgstr "只有在相符的邀請碼輸入時才會顯示票券。"
 
 #: pretix/base/models/items.py:211
 msgid ""
 "This product will be hidden from the event page until the user enters a "
 "voucher code that is specifically tied to this product (and not via a quota)."
-msgstr ""
+msgstr "該票券會持續隱藏直到有使用者輸入了對應的驗證碼。"
 
 #: pretix/base/models/items.py:215
 msgid "Allow product to be canceled"
-msgstr ""
+msgstr "允許取消訂購"
 
 #: pretix/base/models/items.py:217
+#, fuzzy
 msgid ""
 "If this is active and the general event settings allow it, orders containing "
 "this product can be canceled by the user until the order is paid for. Users "
 "cannot cancel paid orders on their own and you can cancel orders at all "
 "times, regardless of this setting"
-msgstr ""
+msgstr "如果活動設定允許，在使用者付費之前這個票券都可以取消。"
 
 #: pretix/base/models/items.py:222
 msgid "Minimum amount per order"
-msgstr ""
+msgstr "訂購最低數量"
 
 #: pretix/base/models/items.py:224
+#, fuzzy
 msgid ""
 "This product can only be bought if it is added to the cart at least this "
 "many times. If you keep the field empty or set it to 0, there is no special "
 "limit for this product."
-msgstr ""
+msgstr "該票券最少要訂購這麼多份，為空代表不設限制。"
 
 #: pretix/base/models/items.py:228
 msgid "Maximum amount per order"
-msgstr ""
+msgstr "訂購上限"
 
 #: pretix/base/models/items.py:230
+#, fuzzy
 msgid ""
 "This product can only be bought at most this many times within one order. If "
 "you keep the field empty or set it to 0, there is no special limit for this "
 "product. The limit for the maximum number of items in the whole order "
 "applies regardless."
-msgstr ""
+msgstr "單次訂購的上限。"
 
 #: pretix/base/models/items.py:238 pretix/base/models/vouchers.py:128
 #: pretix/base/models/waitinglist.py:43 pretix/control/forms/orders.py:64
@@ -642,7 +654,7 @@ msgstr ""
 #: pretix/plugins/reports/exporters.py:166
 #: pretix/presale/templates/pretixpresale/event/waitinglist.html:10
 msgid "Product"
-msgstr ""
+msgstr "票券"
 
 #: pretix/base/models/items.py:239 pretix/base/models/items.py:494
 #: pretix/control/forms/filter.py:77
@@ -653,61 +665,62 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/items/index.html:5
 #: pretix/control/templates/pretixcontrol/items/quotas.html:36
 msgid "Products"
-msgstr ""
+msgstr "票券"
 
 #: pretix/base/models/items.py:334
 msgid "This is shown below the variation name in lists."
 msgstr ""
 
 #: pretix/base/models/items.py:339 pretix/base/models/items.py:425
+#, fuzzy
 msgid "Position"
-msgstr ""
+msgstr "定位。"
 
 #: pretix/base/models/items.py:348 pretix/base/models/vouchers.py:137
 #: pretix/base/models/waitinglist.py:51
 msgid "Product variation"
-msgstr ""
+msgstr "票券種類"
 
 #: pretix/base/models/items.py:349
 msgid "Product variations"
-msgstr ""
+msgstr "票券種類"
 
 #: pretix/base/models/items.py:417
 msgid "Minimum number"
-msgstr ""
+msgstr "最低數量"
 
 #: pretix/base/models/items.py:421
 msgid "Maximum number"
-msgstr ""
+msgstr "數量上限"
 
 #: pretix/base/models/items.py:434
 msgid "The minimum number needs to be lower than the maximum number."
-msgstr ""
+msgstr "最低數量必須低於上限。"
 
 #: pretix/base/models/items.py:467
 #: pretix/control/templates/pretixcontrol/vouchers/bulk.html:21
 msgid "Number"
-msgstr ""
+msgstr "數字"
 
 #: pretix/base/models/items.py:468
 msgid "Text (one line)"
-msgstr ""
+msgstr "文字（單行）"
 
 #: pretix/base/models/items.py:469
 msgid "Multiline text"
-msgstr ""
+msgstr "文字（多行）"
 
 #: pretix/base/models/items.py:470
 msgid "Yes/No"
-msgstr ""
+msgstr "是／否"
 
 #: pretix/base/models/items.py:471
 msgid "Choose one from a list"
-msgstr ""
+msgstr "從列表上選取（單個）"
 
 #: pretix/base/models/items.py:472
 msgid "Choose multiple from a list"
-msgstr ""
+msgstr "從列表上選取（多個）"
 
 #: pretix/base/models/items.py:480 pretix/base/models/items.py:503
 #: pretix/control/forms/item.py:31
@@ -715,36 +728,36 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/items/question_edit.html:16
 #: pretix/control/templates/pretixcontrol/items/questions.html:32
 msgid "Question"
-msgstr ""
+msgstr "問題"
 
 #: pretix/base/models/items.py:485
 msgid "Question type"
-msgstr ""
+msgstr "問題類型"
 
 #: pretix/base/models/items.py:489
 msgid "Required question"
-msgstr ""
+msgstr "必填問題"
 
 #: pretix/base/models/items.py:496
 msgid "This question will be asked to buyers of the selected products"
-msgstr ""
+msgstr "出現在選取該商品的使用者的表單上。"
 
 #: pretix/base/models/items.py:504
 #: pretix/control/templates/pretixcontrol/event/base.html:53
 #: pretix/control/templates/pretixcontrol/items/questions.html:3
 #: pretix/control/templates/pretixcontrol/items/questions.html:5
 msgid "Questions"
-msgstr ""
+msgstr "問題"
 
 #: pretix/base/models/items.py:530
 #: pretix/control/templates/pretixcontrol/items/question.html:67
 msgid "Answer"
-msgstr ""
+msgstr "答案"
 
 #: pretix/base/models/items.py:598
 #: pretix/control/templates/pretixcontrol/items/quotas.html:37
 msgid "Total capacity"
-msgstr ""
+msgstr "總量"
 
 #: pretix/base/models/items.py:600
 msgid "Leave empty for an unlimited number of tickets."
@@ -753,126 +766,127 @@ msgstr ""
 #: pretix/base/models/items.py:604 pretix/base/models/orders.py:411
 #: pretix/control/templates/pretixcontrol/checkin/index.html:46
 msgid "Item"
-msgstr ""
+msgstr "票券"
 
 #: pretix/base/models/items.py:612
 #: pretix/control/templates/pretixcontrol/item/base.html:16
 msgid "Variations"
-msgstr ""
+msgstr "種類"
 
 #: pretix/base/models/items.py:616 pretix/base/models/vouchers.py:145
 #: pretix/control/templates/pretixcontrol/items/quota_edit.html:8
 #: pretix/control/templates/pretixcontrol/items/quota_edit.html:15
 msgid "Quota"
-msgstr ""
+msgstr "配額"
 
 #: pretix/base/models/items.py:617
 #: pretix/control/templates/pretixcontrol/event/base.html:41
 #: pretix/control/templates/pretixcontrol/items/quotas.html:3
 #: pretix/control/templates/pretixcontrol/items/quotas.html:5
 msgid "Quotas"
-msgstr ""
+msgstr "配額"
 
 #: pretix/base/models/log.py:62
 #, python-brace-format
 msgid "Order {val}"
-msgstr ""
+msgstr "訂單 {val}"
 
 #: pretix/base/models/log.py:72
 #, python-brace-format
 msgid "Voucher {val}…"
-msgstr ""
+msgstr "邀請碼 {val}"
 
 #: pretix/base/models/log.py:82
 #, python-brace-format
 msgid "Product {val}"
-msgstr ""
+msgstr "票券 {val}"
 
 #: pretix/base/models/log.py:92
 #, python-brace-format
 msgid "Quota {val}"
-msgstr ""
+msgstr "配額 {val}"
 
 #: pretix/base/models/log.py:102
 #, python-brace-format
 msgid "Category {val}"
-msgstr ""
+msgstr "類別{val}"
 
 #: pretix/base/models/log.py:112
 #, python-brace-format
 msgid "Question {val}"
-msgstr ""
+msgstr "問題 {val}"
 
 #: pretix/base/models/orders.py:95
 msgid "pending"
-msgstr ""
+msgstr "等待付款"
 
 #: pretix/base/models/orders.py:96
 msgid "paid"
-msgstr ""
+msgstr "已支付"
 
 #: pretix/base/models/orders.py:97
 msgid "expired"
-msgstr ""
+msgstr "已過期"
 
 #: pretix/base/models/orders.py:98
 msgid "canceled"
-msgstr ""
+msgstr "已取消"
 
 #: pretix/base/models/orders.py:99
 msgid "refunded"
-msgstr ""
+msgstr "已退還"
 
 #: pretix/base/models/orders.py:124
 msgid "Locale"
-msgstr ""
+msgstr "語系"
 
 #: pretix/base/models/orders.py:128 pretix/base/models/orders.py:587
 #: pretix/plugins/banktransfer/templates/pretixplugins/banktransfer/import_assign.html:17
 #: pretix/plugins/banktransfer/templates/pretixplugins/banktransfer/transaction_list.html:9
 #: pretix/presale/templates/pretixpresale/organizers/index.html:28
 msgid "Date"
-msgstr ""
+msgstr "日期"
 
 #: pretix/base/models/orders.py:131 pretix/base/models/orders.py:591
 #: pretix/plugins/stripe/templates/pretixplugins/stripe/checkout_payment_form.html:23
 msgid "Expiration date"
-msgstr ""
+msgstr "期限"
 
 #: pretix/base/models/orders.py:140 pretix/control/forms/filter.py:83
 msgid "Payment provider"
-msgstr ""
+msgstr "付款方式"
 
 #: pretix/base/models/orders.py:148
 msgid "Payment method fee tax rate"
-msgstr ""
+msgstr "付款稅率"
 
 #: pretix/base/models/orders.py:152
 msgid "Payment method fee tax"
-msgstr ""
+msgstr "付款稅額"
 
 #: pretix/base/models/orders.py:155
 #: pretix/control/templates/pretixcontrol/order/index.html:290
 msgid "Payment information"
-msgstr ""
+msgstr "付款資訊"
 
 #: pretix/base/models/orders.py:159
 msgid "Payment state was manually modified"
-msgstr ""
+msgstr "付款狀態已修改"
 
 #: pretix/base/models/orders.py:164
 msgid "Total amount"
-msgstr ""
+msgstr "總額"
 
 #: pretix/base/models/orders.py:167 pretix/base/models/vouchers.py:159
 msgid "Comment"
-msgstr ""
+msgstr "備註"
 
 #: pretix/base/models/orders.py:168 pretix/base/models/vouchers.py:160
+#, fuzzy
 msgid ""
 "The text entered in this field will not be visible to the user and is "
 "available for your convenience."
-msgstr ""
+msgstr "在此欄位輸入的文字會是隱藏的"
 
 #: pretix/base/models/orders.py:175
 msgid "Meta information"
@@ -883,7 +897,7 @@ msgstr ""
 #: venv/lib/python3.5/site-packages/django/forms/formsets.py:390
 #: venv/lib/python3.5/site-packages/django/forms/formsets.py:392
 msgid "Order"
-msgstr ""
+msgstr "訂單"
 
 #: pretix/base/models/orders.py:181
 #: pretix/control/templates/pretixcontrol/event/base.html:64
@@ -891,24 +905,24 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/orders/index.html:6
 #: pretix/control/templates/pretixcontrol/orders/index.html:8
 msgid "Orders"
-msgstr ""
+msgstr "訂單"
 
 #: pretix/base/models/orders.py:294
 msgid ""
 "The payment can not be accepted as the last date of payments configured in "
 "the payment settings is over."
-msgstr ""
+msgstr "訂購失敗（已過付款期限）"
 
 #: pretix/base/models/orders.py:296
 msgid ""
 "The payment can not be accepted as it the order is expired and you "
 "configured that no late payments should be accepted in the payment settings."
-msgstr ""
+msgstr "訂購失敗（訂單過期）"
 
 #: pretix/base/models/orders.py:313
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "The ordered product \"{item}\" is no longer available."
-msgstr ""
+msgstr "訂購失敗（{item}已經無法使用）"
 
 #: pretix/base/models/orders.py:376 pretix/control/views/item.py:428
 #: pretix/control/views/vouchers.py:78 pretix/control/views/vouchers.py:79
@@ -916,7 +930,7 @@ msgstr ""
 #: pretix/presale/checkoutflow.py:443
 #: venv/lib/python3.5/site-packages/django/forms/widgets.py:698
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: pretix/base/models/orders.py:378 pretix/control/forms/event.py:432
 #: pretix/control/views/item.py:428 pretix/control/views/vouchers.py:78
@@ -927,16 +941,16 @@ msgstr ""
 #: pretix/presale/checkoutflow.py:445
 #: venv/lib/python3.5/site-packages/django/forms/widgets.py:699
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: pretix/base/models/orders.py:417
 msgid "Variation"
-msgstr ""
+msgstr "種類"
 
 #: pretix/base/models/orders.py:422 pretix/plugins/checkinlists/exporters.py:82
 #: pretix/plugins/ticketoutputpdf/templates/pretixplugins/ticketoutputpdf/index.html:291
 msgid "Price"
-msgstr ""
+msgstr "價格"
 
 #: pretix/base/models/orders.py:426
 #: pretix/control/templates/pretixcontrol/order/index.html:190
@@ -946,7 +960,7 @@ msgstr ""
 #: pretix/presale/forms/checkout.py:101
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:21
 msgid "Attendee name"
-msgstr ""
+msgstr "參加者"
 
 #: pretix/base/models/orders.py:428 pretix/base/models/orders.py:433
 msgid "Empty, if this product is not an admission ticket"
@@ -957,39 +971,39 @@ msgstr ""
 #: pretix/presale/forms/checkout.py:108
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:25
 msgid "Attendee email"
-msgstr ""
+msgstr "參加者的電子郵件"
 
 #: pretix/base/models/orders.py:488
 msgid "Tax rate"
-msgstr ""
+msgstr "稅率"
 
 #: pretix/base/models/orders.py:492
 msgid "Tax value"
-msgstr ""
+msgstr "稅額"
 
 #: pretix/base/models/orders.py:497
 msgid "Order position"
-msgstr ""
+msgstr "訂單序號"
 
 #: pretix/base/models/orders.py:498
 msgid "Order positions"
-msgstr ""
+msgstr "訂單序號"
 
 #: pretix/base/models/orders.py:584
 msgid "Cart ID (e.g. session key)"
-msgstr ""
+msgstr "序號"
 
 #: pretix/base/models/orders.py:596
 msgid "Cart position"
-msgstr ""
+msgstr "序號"
 
 #: pretix/base/models/orders.py:597
 msgid "Cart positions"
-msgstr ""
+msgstr "序號"
 
 #: pretix/base/models/orders.py:618
 msgid "Company name"
-msgstr ""
+msgstr "單位名稱"
 
 #: pretix/base/models/organizer.py:34
 msgid ""
@@ -1005,28 +1019,28 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/organizers/edit.html:4
 #: pretix/control/templates/pretixcontrol/organizers/edit.html:6
 msgid "Organizer"
-msgstr ""
+msgstr "主辦人"
 
 #: pretix/base/models/organizer.py:48
 #: pretix/control/templates/pretixcontrol/base.html:189
 #: pretix/control/templates/pretixcontrol/organizers/index.html:3
 #: pretix/control/templates/pretixcontrol/organizers/index.html:5
 msgid "Organizers"
-msgstr ""
+msgstr "主辦單位"
 
 #: pretix/base/models/organizer.py:111
 #: pretix/control/templates/pretixcontrol/organizers/teams.html:15
 msgid "Team name"
-msgstr ""
+msgstr "團隊名稱"
 
 #: pretix/base/models/organizer.py:112
 #: pretix/control/templates/pretixcontrol/organizers/team_members.html:13
 msgid "Team members"
-msgstr ""
+msgstr "團隊成員"
 
 #: pretix/base/models/organizer.py:113
 msgid "All events (including newly created ones)"
-msgstr ""
+msgstr "所有活動（包含最新）"
 
 #: pretix/base/models/organizer.py:114
 msgid "Limit to events"
@@ -1034,39 +1048,39 @@ msgstr ""
 
 #: pretix/base/models/organizer.py:118
 msgid "Can create events"
-msgstr ""
+msgstr "可新增活動"
 
 #: pretix/base/models/organizer.py:122
 msgid "Can change teams and permissions"
-msgstr ""
+msgstr "可變更成員、權限"
 
 #: pretix/base/models/organizer.py:126
 msgid "Can change organizer settings"
-msgstr ""
+msgstr "可變更主辦人"
 
 #: pretix/base/models/organizer.py:131
 msgid "Can change event settings"
-msgstr ""
+msgstr "可變更活動資訊"
 
 #: pretix/base/models/organizer.py:135
 msgid "Can change product settings"
-msgstr ""
+msgstr "可變更票券設定"
 
 #: pretix/base/models/organizer.py:139
 msgid "Can view orders"
-msgstr ""
+msgstr "可查看訂單"
 
 #: pretix/base/models/organizer.py:143
 msgid "Can change orders"
-msgstr ""
+msgstr "可改變訂單"
 
 #: pretix/base/models/organizer.py:147
 msgid "Can view vouchers"
-msgstr ""
+msgstr "可查看邀請碼"
 
 #: pretix/base/models/organizer.py:151
 msgid "Can change vouchers"
-msgstr ""
+msgstr "可改變邀請碼"
 
 #: pretix/base/models/organizer.py:155
 #, python-format
@@ -1075,12 +1089,12 @@ msgstr ""
 
 #: pretix/base/models/organizer.py:187
 msgid "Team"
-msgstr ""
+msgstr "團隊"
 
 #: pretix/base/models/organizer.py:188
 #: pretix/control/templates/pretixcontrol/organizers/base.html:25
 msgid "Teams"
-msgstr ""
+msgstr "團隊"
 
 #: pretix/base/models/organizer.py:208
 #, python-brace-format
@@ -1089,11 +1103,11 @@ msgstr ""
 
 #: pretix/base/models/vouchers.py:71
 msgid "No effect"
-msgstr ""
+msgstr "無效的功能"
 
 #: pretix/base/models/vouchers.py:72
 msgid "Set product price to"
-msgstr ""
+msgstr "設定票券價格為"
 
 #: pretix/base/models/vouchers.py:73
 msgid "Subtract from product price"
@@ -1108,29 +1122,29 @@ msgstr ""
 #: pretix/control/views/vouchers.py:61
 #: pretix/presale/templates/pretixpresale/event/index.html:343
 msgid "Voucher code"
-msgstr ""
+msgstr "邀請碼"
 
 #: pretix/base/models/vouchers.py:89 pretix/control/views/vouchers.py:62
 msgid "Maximum usages"
-msgstr ""
+msgstr "使用上線"
 
 #: pretix/base/models/vouchers.py:90
 msgid "Number of times this voucher can be redeemed."
-msgstr ""
+msgstr "該邀請碼可以使用的次數"
 
 #: pretix/base/models/vouchers.py:94
 #: pretix/control/templates/pretixcontrol/vouchers/index.html:20
 #: pretix/control/views/vouchers.py:62
 msgid "Redeemed"
-msgstr ""
+msgstr "已使用"
 
 #: pretix/base/models/vouchers.py:99 pretix/control/views/vouchers.py:61
 msgid "Valid until"
-msgstr ""
+msgstr "使用期限"
 
 #: pretix/base/models/vouchers.py:103
 msgid "Reserve ticket from quota"
-msgstr ""
+msgstr "從額度裡保留"
 
 #: pretix/base/models/vouchers.py:105
 msgid ""
@@ -1141,7 +1155,7 @@ msgstr ""
 
 #: pretix/base/models/vouchers.py:111
 msgid "Allow to bypass quota"
-msgstr ""
+msgstr "允許超越額度"
 
 #: pretix/base/models/vouchers.py:113
 msgid ""
@@ -1151,11 +1165,11 @@ msgstr ""
 
 #: pretix/base/models/vouchers.py:117
 msgid "Price mode"
-msgstr ""
+msgstr "價格模式"
 
 #: pretix/base/models/vouchers.py:123
 msgid "Voucher value"
-msgstr ""
+msgstr "邀請碼"
 
 #: pretix/base/models/vouchers.py:131 pretix/control/forms/vouchers.py:17
 msgid "This product is added to the user's cart if the voucher is redeemed."
@@ -1168,21 +1182,21 @@ msgstr ""
 #: pretix/base/models/vouchers.py:147
 msgid ""
 "If enabled, the voucher is valid for any product affected by this quota."
-msgstr ""
+msgstr "啟用以套用邀請碼到所有定額上。"
 
 #: pretix/base/models/vouchers.py:152
 #: pretix/control/templates/pretixcontrol/vouchers/index.html:59
 #: pretix/control/templates/pretixcontrol/vouchers/tags.html:22
 #: pretix/control/views/vouchers.py:62
 msgid "Tag"
-msgstr ""
+msgstr "標籤"
 
 #: pretix/base/models/vouchers.py:155
 msgid ""
 "You can use this field to group multiple vouchers together. If you enter the "
 "same value for multiple vouchers, you can get statistics on how many of them "
 "have been redeemed etc."
-msgstr ""
+msgstr "你可以使用標籤來標示多組邀請碼，"
 
 #: pretix/base/models/vouchers.py:165
 #: pretix/control/templates/pretixcontrol/vouchers/bulk.html:5
@@ -7557,14 +7571,12 @@ msgstr ""
 msgid "You need to choose exactly one option from this category."
 msgid_plural "You need to choose %(min_count)s options from this category."
 msgstr[0] ""
-msgstr[1] ""
 
 #: pretix/presale/templates/pretixpresale/event/checkout_addons.html:39
 #, python-format
 msgid "You can choose at most one option from this category."
 msgid_plural "You can choose up to %(max_count)s options from this category."
 msgstr[0] ""
-msgstr[1] ""
 
 #: pretix/presale/templates/pretixpresale/event/checkout_addons.html:45
 #, python-format
@@ -8408,7 +8420,6 @@ msgid_plural ""
 "Ensure this value has at least %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-msgstr[1] ""
 
 #: venv/lib/python3.5/site-packages/django/core/validators.py:379
 #, python-format
@@ -8419,21 +8430,18 @@ msgid_plural ""
 "Ensure this value has at most %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-msgstr[1] ""
 
 #: venv/lib/python3.5/site-packages/django/core/validators.py:399
 #, python-format
 msgid "Ensure that there are no more than %(max)s digit in total."
 msgid_plural "Ensure that there are no more than %(max)s digits in total."
 msgstr[0] ""
-msgstr[1] ""
 
 #: venv/lib/python3.5/site-packages/django/core/validators.py:404
 #, python-format
 msgid "Ensure that there are no more than %(max)s decimal place."
 msgid_plural "Ensure that there are no more than %(max)s decimal places."
 msgstr[0] ""
-msgstr[1] ""
 
 #: venv/lib/python3.5/site-packages/django/core/validators.py:409
 #, python-format
@@ -8442,7 +8450,6 @@ msgid ""
 msgid_plural ""
 "Ensure that there are no more than %(max)s digits before the decimal point."
 msgstr[0] ""
-msgstr[1] ""
 
 #: venv/lib/python3.5/site-packages/django/core/validators.py:463
 #, python-format
@@ -8747,7 +8754,6 @@ msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr[0] ""
-msgstr[1] ""
 
 #: venv/lib/python3.5/site-packages/django/forms/fields.py:553
 msgid "Please either submit a file or check the clear checkbox, not both."
@@ -8799,14 +8805,12 @@ msgstr ""
 msgid "Please submit %d or fewer forms."
 msgid_plural "Please submit %d or fewer forms."
 msgstr[0] ""
-msgstr[1] ""
 
 #: venv/lib/python3.5/site-packages/django/forms/formsets.py:362
 #, python-format
 msgid "Please submit %d or more forms."
 msgid_plural "Please submit %d or more forms."
 msgstr[0] ""
-msgstr[1] ""
 
 #: venv/lib/python3.5/site-packages/django/forms/models.py:727
 #, python-format
@@ -8875,7 +8879,6 @@ msgstr ""
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
 msgstr[0] ""
-msgstr[1] ""
 
 #: venv/lib/python3.5/site-packages/django/template/defaultfilters.py:897
 #, python-format
@@ -9223,42 +9226,36 @@ msgstr ""
 msgid "%d year"
 msgid_plural "%d years"
 msgstr[0] ""
-msgstr[1] ""
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:12
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
 msgstr[0] ""
-msgstr[1] ""
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:13
 #, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
 msgstr[0] ""
-msgstr[1] ""
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:14
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] ""
-msgstr[1] ""
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:15
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] ""
-msgstr[1] ""
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:16
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] ""
-msgstr[1] ""
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:60
 msgid "0 minutes"
@@ -9408,7 +9405,6 @@ msgstr ""
 msgid "Please correct the error below."
 msgid_plural "Please correct the errors below."
 msgstr[0] ""
-msgstr[1] ""
 
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin14/login.html:34
 msgid "Username:"
