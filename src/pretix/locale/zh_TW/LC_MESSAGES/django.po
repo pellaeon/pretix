@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-01 04:07+0000\n"
-"PO-Revision-Date: 2017-07-01 15:12+0800\n"
+"PO-Revision-Date: 2017-07-01 16:04+0800\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -156,17 +156,17 @@ msgstr "支付手續費"
 #: pretix/base/exporters/orderlist.py:67
 #, python-brace-format
 msgid "Gross at {rate} % tax"
-msgstr "稅率毛額"
+msgstr "稅率毛額（稅率 {rate} %）"
 
 #: pretix/base/exporters/orderlist.py:68
 #, python-brace-format
 msgid "Net at {rate} % tax"
-msgstr "淨稅"
+msgstr "淨稅（稅率 {rate} %）"
 
 #: pretix/base/exporters/orderlist.py:69
 #, python-brace-format
 msgid "Tax value at {rate} % tax"
-msgstr "稅額"
+msgstr "稅額（稅率 {rate} %）"
 
 #: pretix/base/exporters/orderlist.py:72
 msgid "Invoice numbers"
@@ -1204,7 +1204,7 @@ msgstr "你可以使用標籤來標示多組邀請碼，"
 #: pretix/control/templates/pretixcontrol/vouchers/detail.html:7
 #: pretix/control/templates/pretixcontrol/waitinglist/index.html:98
 msgid "Voucher"
-msgstr ""
+msgstr "邀請碼"
 
 #: pretix/base/models/vouchers.py:166
 #: pretix/control/templates/pretixcontrol/event/base.html:108
@@ -1213,21 +1213,21 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/vouchers/index.html:3
 #: pretix/control/views/item.py:641
 msgid "Vouchers"
-msgstr ""
+msgstr "邀請碼"
 
 #: pretix/base/models/vouchers.py:177
 msgid "You cannot select a quota and a specific product at the same time."
-msgstr ""
+msgstr "無法同時選擇一種票券及定額"
 
 #: pretix/base/models/vouchers.py:180
 msgid ""
 "You cannot select a variation without having selected a product that "
 "provides variations."
-msgstr ""
+msgstr "必須同時選擇一個類別及票券"
 
 #: pretix/base/models/vouchers.py:183
 msgid "This variation does not belong to this product."
-msgstr ""
+msgstr "該類別不屬於這個票券"
 
 #: pretix/base/models/vouchers.py:185 pretix/control/forms/vouchers.py:164
 msgid ""
@@ -1237,32 +1237,33 @@ msgstr ""
 
 #: pretix/base/models/vouchers.py:188 pretix/control/forms/vouchers.py:171
 msgid "You need to specify either a quota or a product."
-msgstr ""
+msgstr "必須選擇一種限額或票券"
 
 #: pretix/base/models/waitinglist.py:30
 msgid "On waiting list since"
-msgstr ""
+msgstr "開始等待時間"
 
 #: pretix/base/models/waitinglist.py:34
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:111
 msgid "E-mail address"
-msgstr ""
+msgstr "電子郵件"
 
 #: pretix/base/models/waitinglist.py:38
 msgid "Assigned voucher"
-msgstr ""
+msgstr "已輸入的邀請碼"
 
 #: pretix/base/models/waitinglist.py:45
 msgid "The product the user waits for."
-msgstr ""
+msgstr "正在遞補的票券"
 
 #: pretix/base/models/waitinglist.py:53
 msgid "The variation of the product selected above."
-msgstr ""
+msgstr "選取票券所在的類別"
 
 #: pretix/base/models/waitinglist.py:62
+#, fuzzy
 msgid "Waiting list entry"
-msgstr ""
+msgstr "遞補列表"
 
 #: pretix/base/models/waitinglist.py:63
 msgid "Waiting list entries"
@@ -1272,19 +1273,19 @@ msgstr ""
 msgid ""
 "You are already on this waiting list! We will notify you as soon as we have "
 "a ticket available for you."
-msgstr ""
+msgstr "你早就在遞補裡了，我們會在有票券時通知你"
 
 #: pretix/base/models/waitinglist.py:76
 msgid "Please select a specific variation of this product."
-msgstr ""
+msgstr "請選擇票券的類別"
 
 #: pretix/base/models/waitinglist.py:85
 msgid "This product is currently not available."
-msgstr ""
+msgstr "該票券現在無法取得"
 
 #: pretix/base/models/waitinglist.py:87
 msgid "A voucher has already been sent to this person."
-msgstr ""
+msgstr "該用戶已經有邀請碼了。"
 
 #: pretix/base/models/waitinglist.py:97
 #, python-brace-format
@@ -1300,7 +1301,7 @@ msgstr ""
 #: pretix/control/forms/event.py:680
 #: venv/lib/python3.5/site-packages/django/forms/fields.py:56
 msgid "This field is required."
-msgstr ""
+msgstr "這是必填欄位"
 
 #: pretix/base/payment.py:137
 msgid "Enable payment method"
@@ -1308,20 +1309,20 @@ msgstr ""
 
 #: pretix/base/payment.py:142 pretix/base/payment.py:148
 msgid "Additional fee"
-msgstr ""
+msgstr "額外費用"
 
 #: pretix/base/payment.py:143
 msgid "Absolute value"
-msgstr ""
+msgstr "淨額"
 
 #: pretix/base/payment.py:149
 msgid "Percentage"
-msgstr ""
+msgstr "比例"
 
 #: pretix/base/payment.py:155
 msgid ""
 "Users will not be able to choose this payment provider after the given date."
-msgstr ""
+msgstr "在該日期後取消該付費方式。"
 
 #: pretix/base/payment.py:161
 msgid "Calculate the fee from the total value including the fee."
@@ -1371,46 +1372,46 @@ msgstr ""
 
 #: pretix/base/payment.py:524
 msgid "Free of charge"
-msgstr ""
+msgstr "免費"
 
 #: pretix/base/payment.py:560
 msgid "The order has been marked as refunded."
-msgstr ""
+msgstr "該票券已經被退還了。"
 
 #: pretix/base/services/cart.py:27 pretix/base/services/orders.py:48
 msgid ""
 "We were not able to process your request completely as the server was too "
 "busy. Please try again."
-msgstr ""
+msgstr "請求失敗（伺服器忙碌）。請再試一次。"
 
 #: pretix/base/services/cart.py:29 pretix/presale/views/cart.py:102
 msgid "You did not select any products."
-msgstr ""
+msgstr "你尚未選擇任何票券。"
 
 #: pretix/base/services/cart.py:30
 msgid "Unknown cart position."
-msgstr ""
+msgstr "未知訂單序號。"
 
 #: pretix/base/services/cart.py:31
 msgid "You selected a product which is not available for sale."
-msgstr ""
+msgstr "你選擇了不供販售的商品。"
 
 #: pretix/base/services/cart.py:32
 msgid ""
 "Some of the products you selected are no longer available. Please see below "
 "for details."
-msgstr ""
+msgstr "你選擇的票券有些已經無法使用。詳情請見下方。"
 
 #: pretix/base/services/cart.py:34
 msgid ""
 "Some of the products you selected are no longer available in the quantity "
 "you selected. Please see below for details."
-msgstr ""
+msgstr "你選擇的票券有些已經額滿。詳情請見下方。"
 
 #: pretix/base/services/cart.py:36
 #, python-format
 msgid "You cannot select more than %s items per order."
-msgstr ""
+msgstr "你無法在訂單裡選擇多於 %s 張票券。"
 
 #: pretix/base/services/cart.py:37
 #, python-format
@@ -1431,39 +1432,39 @@ msgstr ""
 
 #: pretix/base/services/cart.py:41 pretix/base/services/orders.py:50
 msgid "The presale period for this event has not yet started."
-msgstr ""
+msgstr "該活動的預售還沒開始。"
 
 #: pretix/base/services/cart.py:42 pretix/base/services/orders.py:51
 msgid "The presale period has ended."
-msgstr ""
+msgstr "預售的期限已經結束。"
 
 #: pretix/base/services/cart.py:43
 msgid "The entered price is to high."
-msgstr ""
+msgstr "你輸入的價格過高。"
 
 #: pretix/base/services/cart.py:44
 msgid "This voucher code is not known in our database."
-msgstr ""
+msgstr "驗證碼錯誤。"
 
 #: pretix/base/services/cart.py:45
 msgid ""
 "This voucher code has already been used the maximum number of times allowed."
-msgstr ""
+msgstr "驗證碼已過使用額外。"
 
 #: pretix/base/services/cart.py:46
 #, python-format
 msgid "This voucher code can only be redeemed %d more times."
-msgstr ""
+msgstr "該驗證碼只能在使用 %d 次。"
 
 #: pretix/base/services/cart.py:47
 msgid ""
 "You already used this voucher code. Remove the associated line from your "
 "cart if you want to use it for a different product."
-msgstr ""
+msgstr "你已經使用過該邀請碼。請移除該票券。"
 
 #: pretix/base/services/cart.py:49
 msgid "This voucher is expired."
-msgstr ""
+msgstr "該邀請碼"
 
 #: pretix/base/services/cart.py:50
 msgid "This voucher is not valid for this product."
@@ -1650,7 +1651,7 @@ msgstr ""
 
 #: pretix/base/services/invoices.py:451
 msgid "Sample product A"
-msgstr ""
+msgstr "範例票券 A"
 
 #: pretix/base/services/mail.py:128
 #, python-brace-format
@@ -1684,11 +1685,11 @@ msgstr ""
 
 #: pretix/base/services/orders.py:44
 msgid "An internal error occured, please try again."
-msgstr ""
+msgstr "遭遇內部錯誤，請再試一次。"
 
 #: pretix/base/services/orders.py:45
 msgid "Your cart is empty."
-msgstr ""
+msgstr "你的訂單列表是空的。"
 
 #: pretix/base/services/orders.py:46
 #, python-format
@@ -1701,32 +1702,32 @@ msgstr ""
 msgid ""
 "The voucher code used for one of the items in your cart is not known in our "
 "database."
-msgstr ""
+msgstr "你在訂單列表使用的邀請碼有問題。"
 
 #: pretix/base/services/orders.py:53
 msgid ""
 "The voucher code used for one of the items in your cart has already been "
 "used the maximum number of times allowed. We removed this item from your "
 "cart."
-msgstr ""
+msgstr "你訂單列表使用的邀請碼已經超過了使用限額。該票券已經從訂單列表移除。"
 
 #: pretix/base/services/orders.py:55
 msgid ""
 "The voucher code used for one of the items in your cart is expired. We "
 "removed this item from your cart."
-msgstr ""
+msgstr "你訂單列表中的邀請碼已經過期了。該票券已經從你的訂單列表移除。"
 
 #: pretix/base/services/orders.py:57
 msgid ""
 "The voucher code used for one of the items in your cart is not valid for "
 "this item. We removed this item from your cart."
-msgstr ""
+msgstr "你使用的邀請碼有誤。該票券已經從你的訂單列表移除。"
 
 #: pretix/base/services/orders.py:59
 msgid ""
 "You need a valid voucher code to order one of the products in your cart. We "
 "removed this item from your cart."
-msgstr ""
+msgstr "你需要正確的邀請碼來訂購票券。該票券已經從你的訂單列表移除。"
 
 #: pretix/base/services/orders.py:126
 #, python-format
@@ -1736,7 +1737,7 @@ msgstr ""
 #: pretix/base/services/orders.py:180 pretix/presale/views/order.py:451
 #: pretix/presale/views/order.py:478
 msgid "You cannot cancel this order."
-msgstr ""
+msgstr "你無法取消該訂單。"
 
 #: pretix/base/services/orders.py:399 pretix/control/views/orders.py:312
 #: pretix/presale/templates/pretixpresale/event/order.html:33
@@ -1751,11 +1752,11 @@ msgstr ""
 
 #: pretix/base/services/orders.py:482
 msgid "You cannot change a free order to a paid order."
-msgstr ""
+msgstr "你無法將免費的訂單換成付費的。"
 
 #: pretix/base/services/orders.py:483
 msgid "You need to select a variation of the product."
-msgstr ""
+msgstr "你必須幫該票券選擇一個類別。"
 
 #: pretix/base/services/orders.py:484
 #, python-brace-format
@@ -1765,13 +1766,13 @@ msgstr ""
 
 #: pretix/base/services/orders.py:485
 msgid "The selected product is not active or has no price set."
-msgstr ""
+msgstr "選擇的票券未啟用或未設定價格。"
 
 #: pretix/base/services/orders.py:486
 msgid ""
 "This operation would leave the order empty. Please cancel the order itself "
 "instead."
-msgstr ""
+msgstr "該操作會清空訂單，請直接取消該訂單。"
 
 #: pretix/base/services/orders.py:487
 msgid "Only pending or paid orders can be changed."
