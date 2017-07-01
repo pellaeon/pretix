@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-01 04:07+0000\n"
-"PO-Revision-Date: 2017-07-01 15:12+0800\n"
+"PO-Revision-Date: 2017-07-01 16:26+0800\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -9144,130 +9144,130 @@ msgstr ""
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:45
 msgctxt "alt. month"
 msgid "January"
-msgstr ""
+msgstr "一月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:46
 msgctxt "alt. month"
 msgid "February"
-msgstr ""
+msgstr "二月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:47
 msgctxt "alt. month"
 msgid "March"
-msgstr ""
+msgstr "三月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:48
 msgctxt "alt. month"
 msgid "April"
-msgstr ""
+msgstr "四月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:49
 msgctxt "alt. month"
 msgid "May"
-msgstr ""
+msgstr "五月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:50
 msgctxt "alt. month"
 msgid "June"
-msgstr ""
+msgstr "六月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:51
 msgctxt "alt. month"
 msgid "July"
-msgstr ""
+msgstr "七月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:52
 msgctxt "alt. month"
 msgid "August"
-msgstr ""
+msgstr "八月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:53
 msgctxt "alt. month"
 msgid "September"
-msgstr ""
+msgstr "九月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:54
 msgctxt "alt. month"
 msgid "October"
-msgstr ""
+msgstr "十月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:55
 msgctxt "alt. month"
 msgid "November"
-msgstr ""
+msgstr "十一月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:56
 msgctxt "alt. month"
 msgid "December"
-msgstr ""
+msgstr "十二月"
 
 #: venv/lib/python3.5/site-packages/django/utils/ipv6.py:12
 msgid "This is not a valid IPv6 address."
-msgstr ""
+msgstr "這不是一個合法的 IPv6 地址."
 
 #: venv/lib/python3.5/site-packages/django/utils/text.py:81
 #, python-format
 msgctxt "String to return when truncating text"
 msgid "%(truncated_text)s..."
-msgstr ""
+msgstr "%(truncated_text)s..."
 
 #: venv/lib/python3.5/site-packages/django/utils/text.py:251
 msgid "or"
-msgstr ""
+msgstr "或"
 
 #. Translators: This string is used as a separator between list elements
 #: venv/lib/python3.5/site-packages/django/utils/text.py:270
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:71
 msgid ", "
-msgstr ""
+msgstr ","
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:11
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] ""
+msgstr[0] "%d 年"
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:12
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] ""
+msgstr[0] "%d 月"
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:13
 #, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
-msgstr[0] ""
+msgstr[0] "%d 週"
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:14
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] ""
+msgstr[0] "%d 日"
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:15
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] ""
+msgstr[0] "%d 小時"
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:16
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] ""
+msgstr[0] "%d 分鐘"
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:60
 msgid "0 minutes"
-msgstr ""
+msgstr "0 分鐘"
 
 #: venv/lib/python3.5/site-packages/django/views/csrf.py:109
 msgid "Forbidden"
-msgstr ""
+msgstr "禁止"
 
 #: venv/lib/python3.5/site-packages/django/views/csrf.py:110
 msgid "CSRF verification failed. Request aborted."
-msgstr ""
+msgstr "CSRF 認證失敗, 請求拒絕."
 
 #: venv/lib/python3.5/site-packages/django/views/csrf.py:134
 msgid "More information is available with DEBUG=True."
@@ -9275,11 +9275,11 @@ msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/views/debug.py:520
 msgid "Welcome to Django"
-msgstr ""
+msgstr "歡迎到 Django"
 
 #: venv/lib/python3.5/site-packages/django/views/debug.py:521
 msgid "It worked!"
-msgstr ""
+msgstr "這是作用中的!"
 
 #: venv/lib/python3.5/site-packages/django/views/debug.py:522
 msgid "Congratulations on your first Django-powered page."
@@ -9290,34 +9290,38 @@ msgid ""
 "Next, start your first app by running <code>python manage.py startapp "
 "[app_label]</code>."
 msgstr ""
+"Next, start your first app by running <code>python manage.py startapp "
+"[app_label]</code>."
 
 #: venv/lib/python3.5/site-packages/django/views/debug.py:527
 msgid ""
 "You're seeing this message because you have <code>DEBUG = True</code> in "
 "your Django settings file and you haven't configured any URLs. Get to work!"
 msgstr ""
+"You're seeing this message because you have <code>DEBUG = True</code> in "
+"your Django settings file and you haven't configured any URLs. Get to work!"
 
 #: venv/lib/python3.5/site-packages/django/views/generic/dates.py:48
 msgid "No year specified"
-msgstr ""
+msgstr "未指定年"
 
 #: venv/lib/python3.5/site-packages/django/views/generic/dates.py:72
 #: venv/lib/python3.5/site-packages/django/views/generic/dates.py:132
 #: venv/lib/python3.5/site-packages/django/views/generic/dates.py:249
 msgid "Date out of range"
-msgstr ""
+msgstr "範圍外的日期"
 
 #: venv/lib/python3.5/site-packages/django/views/generic/dates.py:107
 msgid "No month specified"
-msgstr ""
+msgstr "未指定月"
 
 #: venv/lib/python3.5/site-packages/django/views/generic/dates.py:169
 msgid "No day specified"
-msgstr ""
+msgstr "未指定日"
 
 #: venv/lib/python3.5/site-packages/django/views/generic/dates.py:225
 msgid "No week specified"
-msgstr ""
+msgstr "未指定週"
 
 #: venv/lib/python3.5/site-packages/django/views/generic/dates.py:387
 #: venv/lib/python3.5/site-packages/django/views/generic/dates.py:415
@@ -9340,7 +9344,7 @@ msgstr ""
 #: venv/lib/python3.5/site-packages/django/views/generic/detail.py:55
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
-msgstr ""
+msgstr "此詢問未匹配%(verbose_name)s"
 
 #: venv/lib/python3.5/site-packages/django/views/generic/list.py:77
 msgid "Page is not 'last', nor can it be converted to an int."
@@ -9363,7 +9367,7 @@ msgstr ""
 #: venv/lib/python3.5/site-packages/django/views/static.py:46
 #, python-format
 msgid "\"%(path)s\" does not exist"
-msgstr ""
+msgstr "\"%(path)s\"不存在"
 
 #: venv/lib/python3.5/site-packages/django/views/static.py:86
 #, python-format
@@ -9372,29 +9376,29 @@ msgstr ""
 
 #: venv/lib/python3.5/site-packages/django_markup/fields.py:23
 msgid "markup"
-msgstr ""
+msgstr "標記"
 
 #: venv/lib/python3.5/site-packages/django_otp/forms.py:70
 msgid "Please enter your OTP token."
-msgstr ""
+msgstr "請輸入您的一次性密碼符記(token)."
 
 #: venv/lib/python3.5/site-packages/django_otp/forms.py:96
 #, python-brace-format
 msgid "Error generating challenge: {0}"
-msgstr ""
+msgstr "錯誤產生認證: {0}"
 
 #: venv/lib/python3.5/site-packages/django_otp/forms.py:99
 msgid "The selected OTP device is not interactive"
-msgstr ""
+msgstr "選擇的一次性密碼裝置尚未啟用"
 
 #: venv/lib/python3.5/site-packages/django_otp/forms.py:101
 #, python-brace-format
 msgid "OTP Challenge: {0}"
-msgstr ""
+msgstr "一次性密碼驗證: {0}"
 
 #: venv/lib/python3.5/site-packages/django_otp/forms.py:110
 msgid "Invalid token. Please make sure you have entered it correctly."
-msgstr ""
+msgstr "符記(token)無效。請確保您已正確輸入。"
 
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin14/login.html:18
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin15/login.html:17
@@ -9404,18 +9408,18 @@ msgstr ""
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin19/login.html:36
 msgid "Please correct the error below."
 msgid_plural "Please correct the errors below."
-msgstr[0] ""
+msgstr[0] "請修正下方的錯誤"
 
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin14/login.html:34
 msgid "Username:"
-msgstr ""
+msgstr "使用者名稱:"
 
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin14/login.html:38
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin15/login.html:37
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin16/login.html:53
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin17/login.html:53
 msgid "Password:"
-msgstr ""
+msgstr "密碼:"
 
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin14/login.html:44
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin15/login.html:43
@@ -9424,7 +9428,7 @@ msgstr ""
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin18/login.html:60
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin19/login.html:71
 msgid "OTP Device:"
-msgstr ""
+msgstr "一次性密碼裝置:"
 
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin14/login.html:49
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin15/login.html:48
@@ -9433,7 +9437,7 @@ msgstr ""
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin18/login.html:65
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin19/login.html:76
 msgid "OTP Token:"
-msgstr ""
+msgstr "一次性密碼符記(token):"
 
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin14/login.html:54
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin15/login.html:53
@@ -9442,7 +9446,7 @@ msgstr ""
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin18/login.html:70
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin19/login.html:81
 msgid "Forgotten your password or username?"
-msgstr ""
+msgstr "忘記密碼或使用者名稱?"
 
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin14/login.html:60
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin15/login.html:59
@@ -9451,14 +9455,14 @@ msgstr ""
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin18/login.html:76
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin19/login.html:87
 msgid "Get OTP Challenge"
-msgstr ""
+msgstr "取得一次性密碼驗證"
 
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin16/login.html:33
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin17/login.html:33
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin18/login.html:35
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin19/login.html:36
 msgid "Please correct the errors below."
-msgstr ""
+msgstr "請修正下方的錯誤"
 
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin19/login.html:52
 #, python-format
