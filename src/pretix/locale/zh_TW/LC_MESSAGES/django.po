@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-01 04:07+0000\n"
-"PO-Revision-Date: 2017-07-01 16:26+0800\n"
+"PO-Revision-Date: 2017-07-01 17:03+0800\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -8860,7 +8860,7 @@ msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/forms/widgets.py:378
 msgid "Currently"
-msgstr ""
+msgstr "現在"
 
 #: venv/lib/python3.5/site-packages/django/forms/widgets.py:379
 msgid "Change"
@@ -8868,279 +8868,279 @@ msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/forms/widgets.py:697
 msgid "Unknown"
-msgstr ""
+msgstr "未知"
 
 #: venv/lib/python3.5/site-packages/django/template/defaultfilters.py:849
 msgid "yes,no,maybe"
-msgstr ""
+msgstr "確定,否,也許"
 
 #: venv/lib/python3.5/site-packages/django/template/defaultfilters.py:878
 #: venv/lib/python3.5/site-packages/django/template/defaultfilters.py:895
 #, python-format
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
-msgstr[0] ""
+msgstr[0] "%(size)d byte"
 
 #: venv/lib/python3.5/site-packages/django/template/defaultfilters.py:897
 #, python-format
 msgid "%s KB"
-msgstr ""
+msgstr "%s KB"
 
 #: venv/lib/python3.5/site-packages/django/template/defaultfilters.py:899
 #, python-format
 msgid "%s MB"
-msgstr ""
+msgstr "%s MB"
 
 #: venv/lib/python3.5/site-packages/django/template/defaultfilters.py:901
 #, python-format
 msgid "%s GB"
-msgstr ""
+msgstr "%s GB"
 
 #: venv/lib/python3.5/site-packages/django/template/defaultfilters.py:903
 #, python-format
 msgid "%s TB"
-msgstr ""
+msgstr "%s TB"
 
 #: venv/lib/python3.5/site-packages/django/template/defaultfilters.py:905
 #, python-format
 msgid "%s PB"
-msgstr ""
+msgstr "%s PB"
 
 #: venv/lib/python3.5/site-packages/django/utils/dateformat.py:66
 msgid "p.m."
-msgstr ""
+msgstr "下午"
 
 #: venv/lib/python3.5/site-packages/django/utils/dateformat.py:67
 msgid "a.m."
-msgstr ""
+msgstr "上午"
 
 #: venv/lib/python3.5/site-packages/django/utils/dateformat.py:72
 msgid "PM"
-msgstr ""
+msgstr "下午"
 
 #: venv/lib/python3.5/site-packages/django/utils/dateformat.py:73
 msgid "AM"
-msgstr ""
+msgstr "上午"
 
 #: venv/lib/python3.5/site-packages/django/utils/dateformat.py:158
 msgid "midnight"
-msgstr ""
+msgstr "午夜"
 
 #: venv/lib/python3.5/site-packages/django/utils/dateformat.py:160
 msgid "noon"
-msgstr ""
+msgstr "下午"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:6
 msgid "Monday"
-msgstr ""
+msgstr "星期一"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:6
 msgid "Tuesday"
-msgstr ""
+msgstr "星期二"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:6
 msgid "Wednesday"
-msgstr ""
+msgstr "星期三"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:6
 msgid "Thursday"
-msgstr ""
+msgstr "星期四"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:6
 msgid "Friday"
-msgstr ""
+msgstr "星期五"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:7
 msgid "Saturday"
-msgstr ""
+msgstr "星期六"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:7
 msgid "Sunday"
-msgstr ""
+msgstr "星期日"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:10
 msgid "Mon"
-msgstr ""
+msgstr "星期一"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:10
 msgid "Tue"
-msgstr ""
+msgstr "星期二"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:10
 msgid "Wed"
-msgstr ""
+msgstr "星期三"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:10
 msgid "Thu"
-msgstr ""
+msgstr "星期四"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:10
 msgid "Fri"
-msgstr ""
+msgstr "星期五"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:11
 msgid "Sat"
-msgstr ""
+msgstr "星期六"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:11
 msgid "Sun"
-msgstr ""
+msgstr "星期日"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:18
 msgid "January"
-msgstr ""
+msgstr "一月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:18
 msgid "February"
-msgstr ""
+msgstr "二月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:18
 msgid "March"
-msgstr ""
+msgstr "三月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:18
 msgid "April"
-msgstr ""
+msgstr "四月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:18
 msgid "May"
-msgstr ""
+msgstr "五月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:18
 msgid "June"
-msgstr ""
+msgstr "六月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:19
 msgid "July"
-msgstr ""
+msgstr "七月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:19
 msgid "August"
-msgstr ""
+msgstr "八月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:19
 msgid "September"
-msgstr ""
+msgstr "九月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:19
 msgid "October"
-msgstr ""
+msgstr "十月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:19
 msgid "November"
-msgstr ""
+msgstr "十一月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:20
 msgid "December"
-msgstr ""
+msgstr "十二月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:23
 msgid "jan"
-msgstr ""
+msgstr "一月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:23
 msgid "feb"
-msgstr ""
+msgstr "二月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:23
 msgid "mar"
-msgstr ""
+msgstr "三月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:23
 msgid "apr"
-msgstr ""
+msgstr "四月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:23
 msgid "may"
-msgstr ""
+msgstr "五月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:23
 msgid "jun"
-msgstr ""
+msgstr "六月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:24
 msgid "jul"
-msgstr ""
+msgstr "七月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:24
 msgid "aug"
-msgstr ""
+msgstr "八月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:24
 msgid "sep"
-msgstr ""
+msgstr "九月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:24
 msgid "oct"
-msgstr ""
+msgstr "十月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:24
 msgid "nov"
-msgstr ""
+msgstr "十一月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:24
 msgid "dec"
-msgstr ""
+msgstr "十二月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:31
 msgctxt "abbrev. month"
 msgid "Jan."
-msgstr ""
+msgstr "一月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:32
 msgctxt "abbrev. month"
 msgid "Feb."
-msgstr ""
+msgstr "二月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:33
 msgctxt "abbrev. month"
 msgid "March"
-msgstr ""
+msgstr "三月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:34
 msgctxt "abbrev. month"
 msgid "April"
-msgstr ""
+msgstr "四月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:35
 msgctxt "abbrev. month"
 msgid "May"
-msgstr ""
+msgstr "五月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:36
 msgctxt "abbrev. month"
 msgid "June"
-msgstr ""
+msgstr "六月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:37
 msgctxt "abbrev. month"
 msgid "July"
-msgstr ""
+msgstr "七月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:38
 msgctxt "abbrev. month"
 msgid "Aug."
-msgstr ""
+msgstr "八月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:39
 msgctxt "abbrev. month"
 msgid "Sept."
-msgstr ""
+msgstr "九月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:40
 msgctxt "abbrev. month"
 msgid "Oct."
-msgstr ""
+msgstr "十月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:41
 msgctxt "abbrev. month"
 msgid "Nov."
-msgstr ""
+msgstr "十一月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:42
 msgctxt "abbrev. month"
 msgid "Dec."
-msgstr ""
+msgstr "十二月"
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:45
 msgctxt "alt. month"
