@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-01 04:07+0000\n"
-"PO-Revision-Date: 2017-07-01 17:03+0800\n"
+"PO-Revision-Date: 2017-07-01 17:15+0800\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1776,13 +1776,13 @@ msgstr "該操作會清空訂單，請直接取消該訂單。"
 
 #: pretix/base/services/orders.py:487
 msgid "Only pending or paid orders can be changed."
-msgstr ""
+msgstr "你只能等待中或已付費的訂單。"
 
 #: pretix/base/services/orders.py:488
 msgid ""
 "This operation would make the order free and therefore immediately paid, "
 "however no quota is available."
-msgstr ""
+msgstr "該操作會取得免費票券並立刻付款，但該活動已額滿。"
 
 #: pretix/base/services/orders.py:490
 msgid ""
@@ -1790,18 +1790,19 @@ msgid ""
 "total price of the order as partial payments or refunds are not yet "
 "supported."
 msgstr ""
+"你只能對已付款的訂單做不影響價格的操作，現在系統還不支援部分付款或退款。"
 
 #: pretix/base/services/orders.py:492
 msgid ""
 "This is an addon product, please select the base position it should be added "
 "to."
-msgstr ""
+msgstr "這是一個附加商品，請選擇跟它搭配的票券。"
 
 #: pretix/base/services/orders.py:493
 msgid ""
 "The selected base position does not allow you to add this product as an add-"
 "on."
-msgstr ""
+msgstr "你選擇的票券不允許搭配此商品。"
 
 #: pretix/base/services/orders.py:663
 #, python-format
@@ -1810,16 +1811,16 @@ msgstr ""
 
 #: pretix/base/services/stats.py:131
 msgid "Uncategorized"
-msgstr ""
+msgstr "未分類"
 
 #: pretix/base/services/stats.py:155
 msgid "Payment method fees"
-msgstr ""
+msgstr "付款手續費。"
 
 #: pretix/base/services/tickets.py:76
 #: pretix/plugins/ticketoutputpdf/views.py:88
 msgid "Sample product"
-msgstr ""
+msgstr "範例票券。"
 
 #: pretix/base/services/tickets.py:82 pretix/control/views/event.py:464
 #: pretix/plugins/sendmail/views.py:85
@@ -1827,11 +1828,11 @@ msgstr ""
 #: pretix/plugins/ticketoutputpdf/views.py:97
 #: pretix/plugins/ticketoutputpdf/views.py:98
 msgid "John Doe"
-msgstr ""
+msgstr "John Doe"
 
 #: pretix/base/services/update_check.py:89
 msgid "pretix update available"
-msgstr ""
+msgstr "有可用的 pretix 更新。"
 
 #: pretix/base/services/update_check.py:92
 #, python-brace-format
@@ -1858,7 +1859,7 @@ msgstr ""
 #: pretix/base/services/update_check.py:123
 #, python-format
 msgid "Plugin: %s"
-msgstr ""
+msgstr "套件： %s"
 
 #: pretix/base/settings.py:204
 #, python-brace-format
@@ -1994,54 +1995,54 @@ msgstr ""
 
 #: pretix/base/templates/400.html:3 pretix/base/templates/400.html:6
 msgid "Bad Request"
-msgstr ""
+msgstr "請求錯誤。"
 
 #: pretix/base/templates/400.html:7
 msgid "We were unable to parse your request."
-msgstr ""
+msgstr "請求解析失敗。"
 
 #: pretix/base/templates/400.html:10 pretix/base/templates/403.html:10
 #: pretix/base/templates/404.html:10 pretix/base/templates/500.html:11
 #: pretix/base/templates/csrffail.html:22
 msgid "Take a step back"
-msgstr ""
+msgstr "回前頁。"
 
 #: pretix/base/templates/400.html:11 pretix/base/templates/403.html:11
 #: pretix/base/templates/500.html:12
 msgid "Try again"
-msgstr ""
+msgstr "請再試一次。"
 
 #: pretix/base/templates/403.html:3 pretix/base/templates/403.html:6
 msgid "Permission denied"
-msgstr ""
+msgstr "權限錯誤。"
 
 #: pretix/base/templates/403.html:7
 msgid "You do not have access to this page."
-msgstr ""
+msgstr "你沒有讀取該頁的權限。"
 
 #: pretix/base/templates/404.html:3 pretix/base/templates/404.html:6
 msgid "Not found"
-msgstr ""
+msgstr "該頁面不存在。"
 
 #: pretix/base/templates/404.html:7
 msgid "I'm afraid we could not find the the resource you requested."
-msgstr ""
+msgstr "我們並未找到你請求的資料。"
 
 #: pretix/base/templates/500.html:3 pretix/base/templates/500.html:6
 msgid "Internal Server Error"
-msgstr ""
+msgstr "內部錯誤。"
 
 #: pretix/base/templates/500.html:7
 msgid "We had trouble processing your request."
-msgstr ""
+msgstr "請求處理錯誤。"
 
 #: pretix/base/templates/500.html:8
 msgid "If this problem persists, please contact us."
-msgstr ""
+msgstr "如果你持續遭遇該問題，請聯絡我們。"
 
 #: pretix/base/templates/csrffail.html:3 pretix/base/templates/csrffail.html:6
 msgid "Verification failed"
-msgstr ""
+msgstr "驗證錯誤。"
 
 #: pretix/base/templates/csrffail.html:7
 msgid ""
@@ -2057,11 +2058,11 @@ msgstr ""
 
 #: pretix/base/templates/debug_toolbar/base.html:17
 msgid "Hide toolbar"
-msgstr ""
+msgstr "隱藏工具列"
 
 #: pretix/base/templates/debug_toolbar/base.html:17
 msgid "Hide"
-msgstr ""
+msgstr "隱藏"
 
 #: pretix/base/templates/debug_toolbar/base.html:23
 msgid "Disable for next and successive requests"
@@ -2073,17 +2074,17 @@ msgstr ""
 
 #: pretix/base/templates/debug_toolbar/base.html:45
 msgid "Show toolbar"
-msgstr ""
+msgstr "顯示工具列"
 
 #: pretix/base/templates/pretixbase/cachedfiles/pending.html:21
 msgid "We are preparing your file for download …"
-msgstr ""
+msgstr "我們正在為你的檔案準備下載 ⋯⋯"
 
 #: pretix/base/templates/pretixbase/cachedfiles/pending.html:23
 msgid ""
 "If this takes longer than a few minutes, please refresh this page or contact "
 "us."
-msgstr ""
+msgstr "如果這花費不少時間，請重整或聯繫我們。"
 
 #: pretix/base/templates/pretixbase/email/email_footer.html:3
 #: pretix/control/templates/pretixcontrol/auth/base.html:29
@@ -2101,19 +2102,19 @@ msgstr ""
 
 #: pretix/base/templates/pretixbase/email/plainwrapper.html:141
 msgid "Event:"
-msgstr ""
+msgstr "活動："
 
 #: pretix/base/templates/pretixbase/email/plainwrapper.html:142
 msgid "Order code:"
-msgstr ""
+msgstr "訂單序號："
 
 #: pretix/base/templates/pretixbase/email/plainwrapper.html:143
 msgid "Order date:"
-msgstr ""
+msgstr "訂單日期："
 
 #: pretix/base/templates/pretixbase/email/plainwrapper.html:145
 msgid "View order details"
-msgstr ""
+msgstr "顯示訂單資訊："
 
 #: pretix/base/ticketoutput.py:125
 msgid "Enable output"
@@ -2121,7 +2122,7 @@ msgstr ""
 
 #: pretix/base/ticketoutput.py:143
 msgid "Download ticket"
-msgstr ""
+msgstr "下載票券"
 
 #: pretix/base/validators.py:14
 #, python-format
@@ -2130,11 +2131,11 @@ msgstr ""
 
 #: pretix/base/views/async.py:132
 msgid "An unexpected error has occured."
-msgstr ""
+msgstr "遭遇未知錯誤。"
 
 #: pretix/base/views/async.py:135
 msgid "The task has been completed."
-msgstr ""
+msgstr "該程序已經完成。"
 
 #: pretix/base/views/errors.py:15
 #: venv/lib/python3.5/site-packages/django/views/csrf.py:114
@@ -2170,15 +2171,15 @@ msgstr ""
 
 #: pretix/control/forms/__init__.py:89
 msgid "Filetype not allowed!"
-msgstr ""
+msgstr "不支援的檔案類型。"
 
 #: pretix/control/forms/event.py:19 pretix/control/forms/organizer.py:110
 msgid "Use languages"
-msgstr ""
+msgstr "使用語言"
 
 #: pretix/control/forms/event.py:21
 msgid "Choose all languages that your event should be available in."
-msgstr ""
+msgstr "選擇你活動所適用的所有語言。"
 
 #: pretix/control/forms/event.py:40
 msgid ""
@@ -2187,101 +2188,101 @@ msgstr ""
 
 #: pretix/control/forms/event.py:44 pretix/control/forms/event.py:210
 msgid "Default timezone"
-msgstr ""
+msgstr "預設時區"
 
 #: pretix/control/forms/event.py:48 pretix/control/forms/event.py:219
 msgid "Default language"
-msgstr ""
+msgstr "預設語言"
 
 #: pretix/control/forms/event.py:84 pretix/control/forms/event.py:312
 msgid ""
 "Your default locale must also be enabled for your event (see box above)."
-msgstr ""
+msgstr "你預設的語系必須跟你活動的一樣。"
 
 #: pretix/control/forms/event.py:88
 msgid "Your default locale must be specified."
-msgstr ""
+msgstr "你必須選擇一個預設語系。"
 
 #: pretix/control/forms/event.py:131
 msgid "Copy configuration from"
-msgstr ""
+msgstr "複製設定表單。"
 
 #: pretix/control/forms/event.py:134 pretix/control/forms/item.py:119
 msgid "Do not copy"
-msgstr ""
+msgstr "不要複製"
 
 #: pretix/control/forms/event.py:175
 msgid "Show event end date"
-msgstr ""
+msgstr "顯示活動結束時間"
 
 #: pretix/control/forms/event.py:176
 msgid "If disabled, only event's start date will be displayed to the public."
-msgstr ""
+msgstr "取消後，只會顯示活動的開始時間。"
 
 #: pretix/control/forms/event.py:180
 msgid "Show dates with time"
-msgstr ""
+msgstr "顯示詳細時間。"
 
 #: pretix/control/forms/event.py:181
 msgid ""
 "If disabled, the event's start and end date will be displayed without the "
 "time of day."
-msgstr ""
+msgstr "選取之後，會只顯示日期。"
 
 #: pretix/control/forms/event.py:185
 msgid "Show items outside presale period"
-msgstr ""
+msgstr "在預售時間外顯示票券。"
 
 #: pretix/control/forms/event.py:186
 msgid ""
 "Show item details before presale has started and after presale has ended"
-msgstr ""
+msgstr "在預售時間外也顯示票券資訊。"
 
 #: pretix/control/forms/event.py:190
 msgid ""
 "Show net prices instead of gross prices in the product list (not "
 "recommended!)"
-msgstr ""
+msgstr "顯示票券淨額（不推薦）"
 
 #: pretix/control/forms/event.py:191
 msgid ""
 "Independent of your choice, the cart will show gross prices as this the "
 "price that needs to be paid"
-msgstr ""
+msgstr "獨立選擇"
 
 #: pretix/control/forms/event.py:196
 msgid "Show start date"
-msgstr ""
+msgstr "顯示開始時間"
 
 #: pretix/control/forms/event.py:197
 msgid "Show the presale start date before presale has started."
-msgstr ""
+msgstr "在預售開始前顯示預售時間"
 
 #: pretix/control/forms/event.py:202
 msgid "Last date of modifications"
-msgstr ""
+msgstr "最後修改時間"
 
 #: pretix/control/forms/event.py:203
 msgid ""
 "The last date users can modify details of their orders, such as attendee "
 "names or answers to questions."
-msgstr ""
+msgstr "使用者可以修改票券內容的最後期限，像是更改使用者名稱或回答問題。"
 
 #: pretix/control/forms/event.py:215
 msgid "Available languages"
-msgstr ""
+msgstr "可選用的語言"
 
 #: pretix/control/forms/event.py:222
 msgid "Show number of tickets left"
-msgstr ""
+msgstr "顯示剩餘票券數量"
 
 #: pretix/control/forms/event.py:223
 msgid "Publicly show how many tickets of a certain type are still available."
-msgstr ""
+msgstr "公開顯示某類型的票券還剩多少。"
 
 #: pretix/control/forms/event.py:227
 msgid "Enable waiting list"
-msgstr ""
+msgstr "啟用報名後補。"
 
 #: pretix/control/forms/event.py:228
 msgid ""
@@ -2293,7 +2294,7 @@ msgstr ""
 
 #: pretix/control/forms/event.py:234
 msgid "Waiting list response time"
-msgstr ""
+msgstr "後補序列"
 
 #: pretix/control/forms/event.py:236
 msgid ""
@@ -2304,7 +2305,7 @@ msgstr ""
 
 #: pretix/control/forms/event.py:242
 msgid "Automatic waiting list assignments"
-msgstr ""
+msgstr "自動產生"
 
 #: pretix/control/forms/event.py:243
 msgid ""
@@ -2316,7 +2317,7 @@ msgstr ""
 
 #: pretix/control/forms/event.py:250
 msgid "Ask for attendee names"
-msgstr ""
+msgstr "詢問用戶名稱"
 
 #: pretix/control/forms/event.py:251
 msgid "Ask for a name for all tickets which include admission to the event."
@@ -2324,15 +2325,15 @@ msgstr ""
 
 #: pretix/control/forms/event.py:255
 msgid "Require attendee names"
-msgstr ""
+msgstr "必填參與者名稱"
 
 #: pretix/control/forms/event.py:256
 msgid "Require customers to fill in the names of all attendees."
-msgstr ""
+msgstr "要求用戶填入所有參與者的暱稱"
 
 #: pretix/control/forms/event.py:261
 msgid "Ask for email addresses per ticket"
-msgstr ""
+msgstr "要求每張票券的電子郵件"
 
 #: pretix/control/forms/event.py:262
 msgid ""
@@ -2347,7 +2348,7 @@ msgstr ""
 
 #: pretix/control/forms/event.py:271
 msgid "Require email addresses per ticket"
-msgstr ""
+msgstr "每張票券必填電子郵件"
 
 #: pretix/control/forms/event.py:272
 msgid ""
@@ -2358,24 +2359,24 @@ msgstr ""
 
 #: pretix/control/forms/event.py:279
 msgid "Ask for the order email address twice"
-msgstr ""
+msgstr "要求填寫訂單的電子郵件兩次"
 
 #: pretix/control/forms/event.py:280
 msgid ""
 "Require customers to fill in the primary email address twice to avoid errors."
-msgstr ""
+msgstr "要求用戶再次確認電子郵件"
 
 #: pretix/control/forms/event.py:285
 msgid "Maximum number of items per order"
-msgstr ""
+msgstr "單次訂單上限"
 
 #: pretix/control/forms/event.py:286
 msgid "Add-on products will not be counted."
-msgstr ""
+msgstr "是否包括附加商品"
 
 #: pretix/control/forms/event.py:290
 msgid "Reservation period"
-msgstr ""
+msgstr "保留期限"
 
 #: pretix/control/forms/event.py:291
 msgid ""
@@ -2388,21 +2389,21 @@ msgstr ""
 
 #: pretix/control/forms/event.py:298
 msgid "Contact address"
-msgstr ""
+msgstr "聯絡地址"
 
 #: pretix/control/forms/event.py:300
 msgid "Public email address for contacting the organizer"
-msgstr ""
+msgstr "公開主辦方的電子郵件"
 
 #: pretix/control/forms/event.py:303
 msgid "Allow users to cancel unpaid orders"
-msgstr ""
+msgstr "允許使用者取消未付費的訂單"
 
 #: pretix/control/forms/event.py:304
 msgid ""
 "If checked, users can cancel orders by themselves as long as they are not "
 "yet paid."
-msgstr ""
+msgstr "打勾後，使用者未付帳之前都可以退票"
 
 #: pretix/control/forms/event.py:316
 msgid ""
@@ -2425,7 +2426,7 @@ msgstr ""
 
 #: pretix/control/forms/event.py:331
 msgid "Last date of payments"
-msgstr ""
+msgstr "繳費期限"
 
 #: pretix/control/forms/event.py:332
 msgid ""
@@ -9145,130 +9146,130 @@ msgstr "十二月"
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:45
 msgctxt "alt. month"
 msgid "January"
-msgstr "一月"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:46
 msgctxt "alt. month"
 msgid "February"
-msgstr "二月"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:47
 msgctxt "alt. month"
 msgid "March"
-msgstr "三月"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:48
 msgctxt "alt. month"
 msgid "April"
-msgstr "四月"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:49
 msgctxt "alt. month"
 msgid "May"
-msgstr "五月"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:50
 msgctxt "alt. month"
 msgid "June"
-msgstr "六月"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:51
 msgctxt "alt. month"
 msgid "July"
-msgstr "七月"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:52
 msgctxt "alt. month"
 msgid "August"
-msgstr "八月"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:53
 msgctxt "alt. month"
 msgid "September"
-msgstr "九月"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:54
 msgctxt "alt. month"
 msgid "October"
-msgstr "十月"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:55
 msgctxt "alt. month"
 msgid "November"
-msgstr "十一月"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/utils/dates.py:56
 msgctxt "alt. month"
 msgid "December"
-msgstr "十二月"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/utils/ipv6.py:12
 msgid "This is not a valid IPv6 address."
-msgstr "這不是一個合法的 IPv6 地址."
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/utils/text.py:81
 #, python-format
 msgctxt "String to return when truncating text"
 msgid "%(truncated_text)s..."
-msgstr "%(truncated_text)s..."
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/utils/text.py:251
 msgid "or"
-msgstr "或"
+msgstr ""
 
 #. Translators: This string is used as a separator between list elements
 #: venv/lib/python3.5/site-packages/django/utils/text.py:270
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:71
 msgid ", "
-msgstr ","
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:11
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] "%d 年"
+msgstr[0] ""
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:12
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] "%d 月"
+msgstr[0] ""
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:13
 #, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
-msgstr[0] "%d 週"
+msgstr[0] ""
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:14
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] "%d 日"
+msgstr[0] ""
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:15
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] "%d 小時"
+msgstr[0] ""
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:16
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "%d 分鐘"
+msgstr[0] ""
 
 #: venv/lib/python3.5/site-packages/django/utils/timesince.py:60
 msgid "0 minutes"
-msgstr "0 分鐘"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/views/csrf.py:109
 msgid "Forbidden"
-msgstr "禁止"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/views/csrf.py:110
 msgid "CSRF verification failed. Request aborted."
-msgstr "CSRF 認證失敗, 請求拒絕."
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/views/csrf.py:134
 msgid "More information is available with DEBUG=True."
@@ -9276,11 +9277,11 @@ msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/views/debug.py:520
 msgid "Welcome to Django"
-msgstr "歡迎到 Django"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/views/debug.py:521
 msgid "It worked!"
-msgstr "這是作用中的!"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/views/debug.py:522
 msgid "Congratulations on your first Django-powered page."
@@ -9291,38 +9292,34 @@ msgid ""
 "Next, start your first app by running <code>python manage.py startapp "
 "[app_label]</code>."
 msgstr ""
-"Next, start your first app by running <code>python manage.py startapp "
-"[app_label]</code>."
 
 #: venv/lib/python3.5/site-packages/django/views/debug.py:527
 msgid ""
 "You're seeing this message because you have <code>DEBUG = True</code> in "
 "your Django settings file and you haven't configured any URLs. Get to work!"
 msgstr ""
-"You're seeing this message because you have <code>DEBUG = True</code> in "
-"your Django settings file and you haven't configured any URLs. Get to work!"
 
 #: venv/lib/python3.5/site-packages/django/views/generic/dates.py:48
 msgid "No year specified"
-msgstr "未指定年"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/views/generic/dates.py:72
 #: venv/lib/python3.5/site-packages/django/views/generic/dates.py:132
 #: venv/lib/python3.5/site-packages/django/views/generic/dates.py:249
 msgid "Date out of range"
-msgstr "範圍外的日期"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/views/generic/dates.py:107
 msgid "No month specified"
-msgstr "未指定月"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/views/generic/dates.py:169
 msgid "No day specified"
-msgstr "未指定日"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/views/generic/dates.py:225
 msgid "No week specified"
-msgstr "未指定週"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/views/generic/dates.py:387
 #: venv/lib/python3.5/site-packages/django/views/generic/dates.py:415
@@ -9345,7 +9342,7 @@ msgstr ""
 #: venv/lib/python3.5/site-packages/django/views/generic/detail.py:55
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
-msgstr "此詢問未匹配%(verbose_name)s"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/views/generic/list.py:77
 msgid "Page is not 'last', nor can it be converted to an int."
@@ -9368,7 +9365,7 @@ msgstr ""
 #: venv/lib/python3.5/site-packages/django/views/static.py:46
 #, python-format
 msgid "\"%(path)s\" does not exist"
-msgstr "\"%(path)s\"不存在"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django/views/static.py:86
 #, python-format
@@ -9377,29 +9374,29 @@ msgstr ""
 
 #: venv/lib/python3.5/site-packages/django_markup/fields.py:23
 msgid "markup"
-msgstr "標記"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django_otp/forms.py:70
 msgid "Please enter your OTP token."
-msgstr "請輸入您的一次性密碼符記(token)."
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django_otp/forms.py:96
 #, python-brace-format
 msgid "Error generating challenge: {0}"
-msgstr "錯誤產生認證: {0}"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django_otp/forms.py:99
 msgid "The selected OTP device is not interactive"
-msgstr "選擇的一次性密碼裝置尚未啟用"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django_otp/forms.py:101
 #, python-brace-format
 msgid "OTP Challenge: {0}"
-msgstr "一次性密碼驗證: {0}"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django_otp/forms.py:110
 msgid "Invalid token. Please make sure you have entered it correctly."
-msgstr "符記(token)無效。請確保您已正確輸入。"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin14/login.html:18
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin15/login.html:17
@@ -9409,18 +9406,18 @@ msgstr "符記(token)無效。請確保您已正確輸入。"
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin19/login.html:36
 msgid "Please correct the error below."
 msgid_plural "Please correct the errors below."
-msgstr[0] "請修正下方的錯誤"
+msgstr[0] ""
 
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin14/login.html:34
 msgid "Username:"
-msgstr "使用者名稱:"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin14/login.html:38
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin15/login.html:37
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin16/login.html:53
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin17/login.html:53
 msgid "Password:"
-msgstr "密碼:"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin14/login.html:44
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin15/login.html:43
@@ -9429,7 +9426,7 @@ msgstr "密碼:"
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin18/login.html:60
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin19/login.html:71
 msgid "OTP Device:"
-msgstr "一次性密碼裝置:"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin14/login.html:49
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin15/login.html:48
@@ -9438,7 +9435,7 @@ msgstr "一次性密碼裝置:"
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin18/login.html:65
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin19/login.html:76
 msgid "OTP Token:"
-msgstr "一次性密碼符記(token):"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin14/login.html:54
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin15/login.html:53
@@ -9447,7 +9444,7 @@ msgstr "一次性密碼符記(token):"
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin18/login.html:70
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin19/login.html:81
 msgid "Forgotten your password or username?"
-msgstr "忘記密碼或使用者名稱?"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin14/login.html:60
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin15/login.html:59
@@ -9456,14 +9453,14 @@ msgstr "忘記密碼或使用者名稱?"
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin18/login.html:76
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin19/login.html:87
 msgid "Get OTP Challenge"
-msgstr "取得一次性密碼驗證"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin16/login.html:33
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin17/login.html:33
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin18/login.html:35
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin19/login.html:36
 msgid "Please correct the errors below."
-msgstr "請修正下方的錯誤"
+msgstr ""
 
 #: venv/lib/python3.5/site-packages/django_otp/templates/otp/admin19/login.html:52
 #, python-format
